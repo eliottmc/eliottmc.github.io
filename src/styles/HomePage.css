@@ -1,0 +1,17 @@
+.banner {
+    text-align: center;
+    background: linear-gradient(to right, #2991e1, #107fc4);
+    padding: 170px 0px 170px;
+    margin-left: 0px
+}
+
+.banner h1 {
+    color: white
+}
+
+.presentation-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0px;
+}
