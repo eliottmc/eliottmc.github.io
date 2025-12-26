@@ -21,7 +21,7 @@ const HomePage = () => {
             </Container>
           </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', marginBottom:'2rem', textAlign:'center'}}>
+      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'center', paddingBottom:'4rem'}}>
         <Row className="align-items-center text-center">
           <Col md={6}>
             <h2>Présentation</h2>
@@ -52,6 +52,13 @@ const HomePage = () => {
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
             <img src={placeholder_img} alt="dog" className="presentation-img" />
           </Col>
+        </Row>
+        <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
+          <div style={{maxWidth:'400px', margin:'0 auto'}}> 
+            <button className="button" onClick={() => window.location.href='/services'}>
+              Découvrir mes services
+            </button>
+          </div>
         </Row>
       </Container>
     </>

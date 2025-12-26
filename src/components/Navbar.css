@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between; /* logo left, links right */
   align-items: center;
-  background: #333;
+  background: #2a3281;
   padding: 1rem 6rem;
   position: fixed;
   top: 0;
