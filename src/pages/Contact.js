@@ -19,7 +19,7 @@ const Contact = () => {
       <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'center', paddingBottom:'4rem'}}>
         <h3>Prendre rendez-vous</h3>
         <p>Si vous souhaitez prendre rendez-vous, ou si vous avez simplement des questions sur ma méthode ou mes services, n{"'"}hésitez pas à prendre un rendez-vous via le
-            calendrier ci-dessous. Je serai ravi de vous aider vous et votre compagnon à quatre pattes !
+            calendrier ci-dessous. Je serais ravi de vous aider vous et votre compagnon à quatre pattes !
         </p>
         <div className="calendly-inline-widget" data-url="https://calendly.com/tandoobot/30min" style={{minWidth:'320px', height:'700px'}}></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>

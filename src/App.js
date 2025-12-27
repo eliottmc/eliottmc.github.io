@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import Services from './pages/Services';
 import Tarifs from './pages/Tarifs';
 import Contact from './pages/Contact';
+import Faq from './pages/Faq';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,6 +22,7 @@ const App = () => {
                 <Route path="/services" element={<Services />} />
                 <Route path="/tarifs" element={<Tarifs />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/faq" element={<Faq />} />
             </Routes>
             </div>
         </Router>
