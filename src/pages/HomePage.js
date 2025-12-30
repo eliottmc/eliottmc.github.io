@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <head>
-        <title>David Macé - Éducateur comportementaliste canin</title>
+        <title>David Mace - Éducateur comportementaliste canin</title>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <div className={"banner"}>
