@@ -6,17 +6,25 @@
 }
 
 .banner h1 {
-    color: white
+    color: white;
+    margin-bottom: 40px;
 }
 
 .banner h3 {
     color: white;
-    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.banner h4 {
+    color: white;
+    margin-bottom: 30px;
     font-weight: 100;
 }
 
 .banner p {
     color: lightgray;
+    margin-bottom: 0px;
 }
 
 .presentation-img {

@@ -17,17 +17,28 @@ const HomePage = () => {
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
               <h1>David Macé</h1>
-              <p>Éducateur comportementaliste canin</p>
+              <h3>Éducateur canin comportementaliste à Paris et proche banlieue</h3>
+              <h4>J’accompagne les chiens et leurs humains à Paris et en proche banlieue pour des
+              problématiques éducatives et comportementales, avec une approche d’éducation positive et
+              non coercitive, adaptée à la vie urbaine.</h4>
+              <p>Titulaire ACACED</p>
+              <p>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines</p>
+              <p>Certifié RSCH n°6621</p>
             </Container>
           </div>
       </div>
       <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'center', paddingBottom:'4rem'}}>
         <Row className="align-items-center text-center">
           <Col md={6}>
-            <h2>Présentation</h2>
-            <p>Le chien, comme chaque animal, a son propre langage et son propre univers. 
-              Cela mène ainsi à des problèmes de communication entre l{"'"}homme et le chien. 
-              C’est donc mon rôle d’aider les maitres et leurs chiens à établir cette communication.</p>
+            <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
+            j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>
+            <p>Je vous accompagne de manière individualisée, pour un bilan comportemental, des séances
+            d’éducation ou de suivi, une préparation à l’adoption. Ponctuellement ou régulièrement.
+            Suivant vos disponibilités et vos besoins. Avec comme seul objectif de vous aider à mieux
+            comprendre votre chien et construire une relation sereine.</p>
+            <p>Formé à l’éducation positive au centre Entre Chiens, auprès de Gaston Mellet, Yann Forêt et
+            du docteur vétérinaire Sylvia Masson, je propose une approche non coercitive, respectueuse,
+            et adaptée au quotidien des chiens vivant en milieu urbain.</p>
           </Col>
           <Col md={6}>
             <img src={placeholder_img} alt="dog" className="presentation-img" />
@@ -38,9 +49,20 @@ const HomePage = () => {
             Le comportementaliste
           </h2>
           <p>
-            Le comportementaliste canin est un professionnel diplômé qui fait le lien entre le maitre et son chien.
-            Il aide à mettre en place une communication saine et efficace entre les deux.
+            Mon travail consiste à vous proposer des solutions concrètes aux problèmes que vous
+            rencontrez, adaptées à votre chien, et à vous accompagner dans son éducation en tenant
+            compte de votre environnement et de votre mode de vie.
           </p>
+          <p>Ce travail se fait avec votre participation. En vous impliquant, vous offrez à votre chien des
+          moments de complicité et de plaisir partagés, tout en renforçant votre lien.</p>
+          <p>Vous verrez qu’avec un peu de travail et de patience, un chien est capable de tout apprendre,
+          tout comprendre : marche en laisse, rappel, statique, accueil des visiteurs, règles du
+          quotidien… La stimulation intellectuelle fait partie de son équilibre et de ses besoins
+          fondamentaux, et ceci à tout âge.</p>
+          <p>Et s’il aboie, tire sur sa laisse, détruit le canapé, qu’il a du mal à gérer ses émotions, ce n’est
+          certainement pas pour vous fâcher, c’est souvent juste un problème de communication. Et ça
+          aussi ça s’apprend et se travaille. Tout ce qui l’intéresse (à part peut-être manger), c’est de
+          vous rendre heureux. C’est vrai pour tous les chiens.</p>
         </Row>
         <Row className="align-items-center justify-content-center text-center" style={{marginTop:'2rem'}}>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
