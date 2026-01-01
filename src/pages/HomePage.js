@@ -77,8 +77,8 @@ const HomePage = () => {
         </Row>
         <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
           <div style={{maxWidth:'400px', margin:'0 auto'}}> 
-            <button className="button" onClick={() => window.location.href='/services'}>
-              Découvrir mes services
+            <button className="button" onClick={() => window.location.href='/prestations'}>
+              Découvrir mes prestations
             </button>
           </div>
         </Row>
