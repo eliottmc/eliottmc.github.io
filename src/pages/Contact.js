@@ -118,15 +118,8 @@ const Contact = () => {
 
           <div style={{ textAlign: "center" }}>
             <button
+            className="button"
               type="submit"
-              style={{
-                padding: "0.6rem 1.5rem",
-                borderRadius: "4px",
-                border: "none",
-                backgroundColor: "#000",
-                color: "#fff",
-                cursor: "pointer",
-              }}
             >
               Envoyer
             </button>

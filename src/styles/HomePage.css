@@ -1,22 +1,30 @@
 .banner {
     text-align: center;
-    background: #343ead;
-    padding: 120px 0px 120px;
+    background: #334E68;
+    padding: 60px 0px 60px;
     margin-left: 0px
 }
 
 .banner h1 {
-    color: white
+    color: white;
+    margin-bottom: 20px;
 }
 
 .banner h3 {
     color: white;
-    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.banner h4 {
+    color: white;
+    margin-bottom: 30px;
     font-weight: 100;
 }
 
 .banner p {
     color: lightgray;
+    margin-bottom: 0px;
 }
 
 .presentation-img {
@@ -27,12 +35,16 @@
 }
 
 .button {
-    background-color: white;
-    color: black;
+    background-color: #8FB996;
+    color: white;
     border: 1px solid black;
     padding: 20px 40px;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #729978;
 }
