@@ -10,13 +10,13 @@ const HomePage = () => {
   return (
     <>
       <head>
-        <title>David Mace  - Éducateur comportementaliste canin</title>
+        <title>David Macé - Éducateur comportementaliste canin</title>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
-              <h1>David Macé</h1>
+              <h1>David Mace</h1>
               <p>Éducateur comportementaliste canin</p>
             </Container>
           </div>
