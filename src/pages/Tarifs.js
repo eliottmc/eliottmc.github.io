@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 
 import '../styles/Tarifs.css';
 
@@ -62,13 +62,6 @@ const Tarifs = () => {
             </div>
           </div>
         </div>
-        <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
-          <div style={{maxWidth:'400px', margin:'0 auto'}}> 
-            <button className="button" onClick={() => window.location.href='/tarifs'}>
-              En savoir plus sur les tarifs
-            </button>
-          </div>
-        </Row>
       </Container>
     </>
   );
