@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
-              <h1>David Mace</h1>
+              <h1>David Macé</h1>
               <p>Éducateur comportementaliste canin</p>
             </Container>
           </div>
