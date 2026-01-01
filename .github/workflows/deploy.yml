@@ -24,6 +24,15 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Clean target directory
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          script: |
+            rm -rf /var/www/website/*
+
       - name: Deploy to VM
         uses: appleboy/scp-action@v0.1.7
         with:
