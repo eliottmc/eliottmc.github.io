@@ -22,6 +22,9 @@ const Navbar = () => {
           <Link to="/tarifs">Tarifs</Link>
         </li>
         <li>
+          <Link to="/education">L{"'"}éducation positive en ville</Link>
+        </li>
+        <li>
           <Link to="/contact">Contact</Link>
         </li>
         <li>
