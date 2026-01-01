@@ -27,8 +27,8 @@ const HomePage = () => {
             </Container>
           </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'center', paddingBottom:'4rem'}}>
-        <Row className="align-items-center text-center">
+      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'justify', paddingBottom:'4rem'}}>
+        <Row className="align-items-center">
           <Col md={6}>
             <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
             j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>
@@ -44,7 +44,7 @@ const HomePage = () => {
             <img src={placeholder_img} alt="dog" className="presentation-img" />
           </Col>
         </Row>
-        <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
+        <Row className="body" style={{marginTop:'4rem'}}>
           <h2>
             Le comportementaliste
           </h2>
