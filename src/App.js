@@ -14,7 +14,7 @@ const App = () => {
     return (
         <>
         <Router>
-            <div style={{ paddingTop: '56px', backgroundColor: '#F7F7F5', color: '#1F2933'}}>
+            <div style={{ paddingTop: '56px', backgroundColor: '#F5F3EE'}}>
             <div className="fixed-top">
                 <Navbar />
             </div>

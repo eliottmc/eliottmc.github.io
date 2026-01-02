@@ -1,6 +1,6 @@
 .banner {
     text-align: center;
-    background: #334E68;
+    background: #6F8F7E;
     padding: 60px 0px 60px;
     margin-left: 0px
 }
@@ -38,7 +38,7 @@
 }
 
 .button {
-    background-color: #8FB996;
+    background-color: #6F8F7E;
     color: white;
     border: 1px solid black;
     padding: 20px 40px;
@@ -49,7 +49,7 @@
 }
 
 .button:hover {
-    background-color: #729978;
+    background-color: #8FAF9A;
 }
 
 .body h2{
