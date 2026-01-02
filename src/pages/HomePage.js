@@ -3,8 +3,10 @@ import {Container, Col, Row} from 'react-bootstrap';
 
 import '../styles/HomePage.css';
 
-import placeholder_img from '../assets/placeholderimage.png';
-import dog_with_woman from '../assets/dog_with_woman.jpg';
+import david_gaston_bridge from '../assets/pictures_gaston_david/david_gaston_bridge.JPG';
+import juno from '../assets/pictures_gaston_david/Juno&David.jpeg';
+import biggie from '../assets/pictures_gaston_david/Biggie.jpeg';
+import sky from '../assets/pictures_gaston_david/Sky.jpeg';
 
 const HomePage = () => {
   return (
@@ -41,7 +43,7 @@ const HomePage = () => {
             et adaptée au quotidien des chiens vivant en milieu urbain.</p>
           </Col>
           <Col md={6}>
-            <img src={placeholder_img} alt="dog" className="presentation-img" />
+            <img src={david_gaston_bridge} alt="dog" className="presentation-img" />
           </Col>
         </Row>
         <Row className="body" style={{marginTop:'4rem'}}>
@@ -66,13 +68,13 @@ const HomePage = () => {
         </Row>
         <Row className="align-items-center justify-content-center text-center" style={{marginTop:'2rem'}}>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
-            <img src={placeholder_img} alt="dog" className="presentation-img" />
+            <img src={juno} alt="dog" className="carrousel-img" />
           </Col>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
-            <img src={dog_with_woman} alt="dog" className="presentation-img" />
+            <img src={sky} alt="dog" className="carrousel-img" />
           </Col>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
-            <img src={placeholder_img} alt="dog" className="presentation-img" />
+            <img src={biggie} alt="dog" className="carrousel-img" />
           </Col>
         </Row>
         <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
