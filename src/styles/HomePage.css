@@ -46,7 +46,7 @@
 }
 
 .button {
-    background-color: #6F8F7E;
+    background-color: #8FAF9A;
     color: white;
     border: 1px solid black;
     padding: 20px 40px;
@@ -57,7 +57,7 @@
 }
 
 .button:hover {
-    background-color: #8FAF9A;
+    background-color: #6F8F7E;
 }
 
 .body h2{
