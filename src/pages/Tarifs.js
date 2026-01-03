@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 import '../styles/Tarifs.css';
 
-import david_gaston_reading from '../assets/pictures_gaston_david/david_gaston_reading.JPG';
+import juno from '../assets/pictures_gaston_david/Maliboo.jpeg';
 
 const Tarifs = () => {
   return (
@@ -54,7 +54,7 @@ const Tarifs = () => {
             </div>
             </Col>
             <Col md={4}>
-              <img src={david_gaston_reading} alt="dog" className="tarif_img" />
+              <img src={juno} alt="dog" className="tarif_img" />
             </Col>
             </Row>
             <div style={{marginBottom:'3rem'}}>

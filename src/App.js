@@ -5,7 +5,6 @@ import Presta from './pages/Presta';
 import Tarifs from './pages/Tarifs';
 import Educ from './pages/Educ';
 import Contact from './pages/Contact';
-import Faq from './pages/Faq';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +23,6 @@ const App = () => {
                 <Route path="/tarifs" element={<Tarifs />} />
                 <Route path="/education" element={<Educ />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/faq" element={<Faq />} />
             </Routes>
             </div>
         </Router>
