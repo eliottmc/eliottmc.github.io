@@ -4,25 +4,27 @@ import {Container, Col, Row} from 'react-bootstrap';
 import '../styles/HomePage.css';
 
 import david_gaston_bridge from '../assets/pictures_gaston_david/david_gaston_bridge.JPG';
-import juno from '../assets/pictures_gaston_david/Juno&David.jpeg';
-import biggie from '../assets/pictures_gaston_david/Biggie.jpeg';
-import sky from '../assets/pictures_gaston_david/Sky.jpeg';
+import dream from '../assets/pictures_gaston_david/Dream.jpeg';
+import maliboo from '../assets/pictures_gaston_david/Maliboo.jpeg';
+import tesla from '../assets/pictures_gaston_david/Tesla.jpeg';
+import gaston_head from '../assets/pictures_gaston_david/gaston_vertical.JPG';
+import icon from '../assets/niche.png';
 
 const HomePage = () => {
   return (
     <>
       <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={icon} />
       </head>
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
               <h1>David Macé</h1>
               <h3>Éducateur canin comportementaliste à Paris et proche banlieue</h3>
-              <h4>Éducation positive pour chien citadin et humain•e serein•e.
-                Résolution des problèmes de comportement sans contrainte.
-              </h4>
+              <div className="img-cropper">
+                <img src={gaston_head} alt="dog" className="banner-img" />
+              </div>
               <p>Titulaire ACACED</p>
               <p>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines</p>
               <p>Certifié RSCH n°6621</p>
@@ -68,13 +70,13 @@ const HomePage = () => {
         </Row>
         <Row className="align-items-center justify-content-center text-center" style={{marginTop:'2rem'}}>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
-            <img src={juno} alt="dog" className="carrousel-img" />
+            <img src={dream} alt="dog" className="carrousel-img" />
           </Col>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
-            <img src={sky} alt="dog" className="carrousel-img" />
+            <img src={maliboo} alt="dog" className="carrousel-img" />
           </Col>
           <Col md={3} style={{marginLeft:'1rem', marginRight:'1rem'}}>
-            <img src={biggie} alt="dog" className="carrousel-img" />
+            <img src={tesla} alt="dog" className="carrousel-img" />
           </Col>
         </Row>
         <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
