@@ -20,9 +20,9 @@ const HomePage = () => {
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
               <h1>David Macé</h1>
               <h3>Éducateur canin comportementaliste à Paris et proche banlieue</h3>
-              <h4>J’accompagne les chiens et leurs humains à Paris et en proche banlieue pour des
-              problématiques éducatives et comportementales, avec une approche d’éducation positive et
-              non coercitive, adaptée à la vie urbaine.</h4>
+              <h4>Éducation positive pour chien citadin et humain•e serein•e.
+                Résolution des problèmes de comportement sans contrainte.
+              </h4>
               <p>Titulaire ACACED</p>
               <p>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines</p>
               <p>Certifié RSCH n°6621</p>
