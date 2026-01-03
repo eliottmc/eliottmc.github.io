@@ -1,7 +1,9 @@
 import React from "react";
-import {Container} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 import '../styles/Tarifs.css';
+
+import juno from '../assets/pictures_gaston_david/Maliboo.jpeg';
 
 const Tarifs = () => {
   return (
@@ -18,24 +20,24 @@ const Tarifs = () => {
         </div>
       </div>
       <Container data-scroll-index='2' style={{marginTop:'6rem', paddingBottom:'4rem'}} className="presta-container">
-        <div>
-          <div style={{marginTop:'3rem'}}>
+          <Row>
+            <Col md={8}>
             <div style={{marginBottom:'3rem'}}>
-              <h4><b>Bilan éducatif et/ou comportemental* - 2 heures : 150€</b></h4>
+              <h4>Bilan éducatif et/ou comportemental* - 2 heures : 150€</h4>
               <ul>
                 <li>À domicile</li>
                 <li>180€ après 20h, week-end et jours fériés</li>
               </ul>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h4><b>Séance éducative ou comportementale* - 1 heure : 60€</b></h4>
+            <div style={{marginBottom:'3rem'}}>
+              <h4>Séance éducative ou comportementale* - 1 heure : 60€</h4>
               <ul>
                 <li>Première séance à domicile</li>
                 <li>80€ après 20h, week-end et jours fériés</li>
               </ul>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h4><b>Préparation à l{"'"}adoption* - 1h30 : 100€</b></h4>
+            <div style={{marginBottom:'3rem'}}>
+              <h4>Préparation à l{"'"}adoption* - 1h30 : 100€</h4>
               <ul>
                 <li>À domicile ou en visioconférence</li>
                 <li>120€ après 20h, week-end et jours fériés</li>
@@ -43,14 +45,19 @@ const Tarifs = () => {
                 <li>-20% pour les adoptions en refuge</li>
               </ul>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h4><b>Séance en visioconférence : 30min : 45€ / 45min : 65€</b></h4>
+            <div style={{marginBottom:'3rem'}}>
+              <h4>Séance en visioconférence : 30min : 45€ / 45min : 65€</h4>
               <ul>
                 <li>Confirmer lors de la prise de contact que la problématique se prête à la visioconférence</li>
                 <li>60/80€ après 20h, week-end et jours fériés</li>
               </ul>
             </div>
-            <div style={{marginTop:'3rem'}}>
+            </Col>
+            <Col md={4}>
+              <img src={juno} alt="dog" className="tarif_img" />
+            </Col>
+            </Row>
+            <div style={{marginBottom:'3rem'}}>
               <p>*Inclus :
                 <ul>
                   <li>Compte rendu détaillé</li>
@@ -60,8 +67,6 @@ const Tarifs = () => {
               </p>
               <p><b>Les séances en visioconférence et les créneaux en horaires décalés font l{"'"}objet d{"'"}un paiement à l{"'"}avance.</b></p>
             </div>
-          </div>
-        </div>
       </Container>
     </>
   );

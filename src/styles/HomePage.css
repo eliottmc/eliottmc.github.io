@@ -1,19 +1,38 @@
 .banner {
     text-align: center;
-    background: #334E68;
-    padding: 60px 0px 60px;
+    background: #6F8F7E;
+    padding: 40px 0px 20px;
     margin-left: 0px
+}
+
+.img-cropper {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 10px; /* Center the cropper and add bottom margin */
+}
+
+.banner-img {
+    width: 150%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: translate(-48px, -75px);
 }
 
 .banner h1 {
     color: white;
     margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 4rem;
 }
 
 .banner h3 {
     color: white;
     margin-bottom: 30px;
-    font-weight: 100;
+    font-weight: 400;
+    font-size: 2.5rem;
 }
 
 .banner h4 {
@@ -34,17 +53,30 @@
     margin-top: 0px;
 }
 
+.carrousel-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0px;
+    max-height: 290px;
+}
+
 .button {
-    background-color: #8FB996;
+    background-color: #8FAF9A;
     color: white;
     border: 1px solid black;
     padding: 20px 40px;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.6s ease;
 }
 
 .button:hover {
-    background-color: #729978;
+    background-color: #6F8F7E;
+    transform: scale(1.1);;
+}
+
+.body h2{
+    text-align: center;
 }

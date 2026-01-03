@@ -1,11 +1,21 @@
-h1 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+@font-face{
+    font-family: 'source-sans';
+    src: url('./assets/fonts/source_sans.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'inter';
+    src: url('./assets/fonts/inter.ttf') format('truetype');
+}
+
+h1, h2, h3{
+    font-family: 'source-sans', sans-serif;
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'inter';
     font-size: 18px;
-    color: #000000;
+    color: #2F2F2F;
     margin: 0;
 }
 
@@ -22,4 +32,8 @@ label {
 .root {
     margin: 0;
     padding: 0;
+}
+
+b {
+    color: #8A5A3C;
 }

@@ -9,3 +9,9 @@
 .text-row p {
     text-align: justify;
 }
+
+.educ_img {
+    max-width: 60%;
+    border-radius: 8px;
+    margin-top: 0px;
+}

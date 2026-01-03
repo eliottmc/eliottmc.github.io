@@ -3,6 +3,9 @@ import {Container, Row} from 'react-bootstrap';
 
 import '../styles/Educ.css';
 
+import gaston_other_dog from '../assets/pictures_gaston_david/gaston_other_dog.JPG';
+import closeup_david_gaston from '../assets/pictures_gaston_david/closeup_david_gaston.JPG';
+
 const Educ = () => {
   return (
     <>
@@ -30,6 +33,9 @@ const Educ = () => {
             fondamentaux soient compris et respectés, et que la relation avec son humain soit claire,
             cohérente et apaisée. C’est précisément dans ce contexte que l’éducation positive prend tout son sens.</p>
         </Row>
+        <div style={{textAlign:'center', marginBottom:'2rem'}}>
+          <img src={gaston_other_dog} alt="dog" className="educ_img" />
+        </div>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
           <h2>
             Qu’est-ce que l’éducation positive ?
@@ -100,6 +106,9 @@ const Educ = () => {
             Les séances ne consistent pas à “dresser” un chien, mais à <b>vous rendre autonome</b>, capable de comprendre et d’accompagner votre compagnon dans la durée.
           </p>
         </Row>
+        <div style={{textAlign:'center', marginBottom:'2rem'}}>
+          <img src={closeup_david_gaston} alt="dog" className="educ_img" />
+        </div>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
           <h2>
             Une approche réaliste, adaptée à Paris

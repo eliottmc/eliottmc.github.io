@@ -17,64 +17,107 @@ const Presta = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'center', paddingBottom:'4rem'}} className="presta-container">
+      <Container data-scroll-index='2' style={{marginTop:'2rem', textAlign:'justify', paddingBottom:'4rem'}} className="presta-container">
         <div>
-          <div style={{marginTop:'3rem'}}>
+          <div >
+            <div style={{marginBottom:'3rem', textAlign:'justify'}}>
+              <p>
+                J’accompagne les chiens et leurs humains vivant à Paris et en proche banlieue, en proposant
+                des prestations d’éducation canine et de comportement adaptées au <b>milieu urbain</b>, au
+                <b>quotidien en appartement</b>, et aux réalités de la vie citadine.
+              </p>
+              <p>
+                Chaque accompagnement est individualisé, respectueux du chien et fondé sur une <b>approche
+                d’éducation positive</b>, sans contrainte ni coercition.
+              </p>
+            </div>
             <div style={{marginBottom:'3rem'}}>
-              <h3><b>Bilan éducatif et/ou comportemental - 2 heures - à domicile</b></h3>
-              <p>Le bilan est une étape essentielle pour comprendre votre chien et poser des bases solides.
-              Pendant environ deux heures, à votre domicile, nous faisons un point complet sur votre
-              situation.</p>
-              <p>Je vous pose de nombreuses questions afin de mieux comprendre votre chien, son histoire,
-              son environnement et votre quotidien. Une promenade sera proposée afin d’observer son
-              comportement en extérieur et d’identifier les axes d’amélioration possibles.</p>
-              <p>À l’issue de cette rencontre, je rédige un <b>compte rendu détaillé</b>, incluant les axes de travail
-              éducatifs et/ou comportementaux, ainsi que des recommandations adaptées à votre chien et à
-              votre mode de vie à Paris.</p>
-              <p>Ce bilan ne constitue <b>en aucun cas un diagnostic médical</b>.
+              <h3>Bilan éducatif et/ou comportemental</h3>
+              <h5>Durée : 2 heures – à domicile</h5>
+              <p>
+                Afin de comprendre la situation dans son ensemble, je vous poserai de nombreuses questions
+                sur votre chien, son environnement ainsi que les difficultés que vous rencontrez.</p>
+              <p>
+                Une promenade en extérieur est proposée afin d’observer le comportement de votre chien en
+                extérieur (marche en laisse, croisements, environnement urbain).
+              </p>
+              <p>À l{"'"}issue du bilan, je rédige un <b>compte rendu détaillé</b>, incluant :</p>
+              <ul>
+                <li>les axes de travai éducatifs et/ou comportementaux </li>
+                <li>des recommandations concrètes</li>
+                <li>une stratégie adaptée à votre chien et à votre mode de vie à Paris</li>
+              </ul>
+                <p>Ce bilan ne constitue <b>en aucun cas un diagnostic médical</b>.
               Aucun éducateur n’est habilité à émettre un avis médical. Si je suspecte un problème d’ordre
               pathologique, je vous orienterai vers un·e vétérinaire comportementaliste, mais en aucun cas
               je ne vous donnerai un avis sur une question médicale. C’est déontologiquement interdit et
               éthiquement douteux.</p>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h3><b>Séance éducative - 1 heure - première séance à domicile</b></h3>
-              <p>Les séances éducatives permettent de travailler un ou deux apprentissages précis, en fonction
-              de vos besoins et de ceux de votre chien.</p>
-              <p>Elles peuvent concerner la marche en laisse, le rappel, les positions (assis, couché, statique),
-              l’accueil des visiteurs, les croisements (chiens, humains), les règles du quotidien et autres.</p>
-              <p>Les séances ont lieu <b>à domicile ou en extérieur</b>, selon l’apprentissage à mettre en place.</p>
-              <p>À l’issue de la séance, vous disposez des <b>outils nécessaires pour poursuivre l’apprentissage en autonomie</b>.</p>
+            <div style={{marginBottom:'3rem'}}>
+              <h3>Séance éducative</h3>
+              <h5>Durée : 1 heure</h5>
+              <h5>Première séance à domicile recommandée</h5>
+              <p>
+                Les séances éducatives permettent de travailler un ou deux apprentissages précis, selon vos
+                objectifs et les besoins de votre chien, à domicile ou en extérieur, comme :</p>
+              <ul>
+                <li>la marche en laisse</li>
+                <li>le rappel</li>
+                <li>les positions (assis, couché, statique)</li>
+                <li>l’accueil des visiteurs</li>
+                <li>les croisements chiens et humains</li>
+                <li>les règles du quotidien en appartement</li>
+              </ul>
+                <p>À l’issue de la séance, vous disposez d’outils clairs pour poursuivre le travail en autonomie et
+                renforcer la relation avec votre chien.</p>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h3><b>Séance comportementale - 1 heure</b></h3>
-              <p>Les séances comportementales s’adressent aux problématiques telles que les aboiements
-              excessifs, peurs ou phobies, difficultés de gestion émotionnelle, comportements gênants ou
-              incompris et autres soucis rencontrés.</p>
-              <p>La première séance permet de comprendre la situation, d’identifier les déclencheurs et le
-              contexte, puis de définir une stratégie de travail adaptée.</p>
-              <p>Un compte rendu est transmis, accompagné, si nécessaire, d’une <b>proposition de séances de suivi</b>.</p>
-              <p>Chaque situation est évaluée individuellement : certains problèmes peuvent se résoudre
-              rapidement, parfois en une séance, d’autres nécessitent un accompagnement progressif.</p>
+            <div style={{marginBottom:'3rem'}}>
+              <h3>Séance comportementale</h3>
+              <h5>Durée : 1 heure</h5>
+              <p>
+                Les séances comportementales s’adressent à des problématiques telles que :</p>
+              <ul>
+                <li>les aboiements excessifs</li>
+                <li>les peurs ou phobies</li>
+                <li>les difficultés de gestion émotionnelle</li>
+                <li>les comportements gênants ou incompris</li>
+              </ul>
+                <p>La première séance permet de comprendre la problématique et de définir les déclencheurs,
+                dans le contexte de vie du chien.</p>
+                <p>Un <b>compte rendu écrit</b> est transmis, accompagné si nécessaire d’une proposition de séances
+                  de suivi.</p>
+                <p>Certains problèmes peuvent se résoudre rapidement, d’autres nécessitent un accompagnement
+                  progressif.</p>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h3><b>Préparation à l{"'"}adoption - 1h30 - à domicile ou en visioconférence</b></h3>
-              <p>La préparation à l’adoption permet d’anticiper l’arrivée d’un chien et de construire un projet
-              cohérent, en amont.</p>
-              <p>Suivant vos envies et vos besoins, nous aborderons le choix du chien, votre environnement et
-              mode de vie, les besoins fondamentaux du chien, les habitudes à mettre en place, et toutes les
-              problématiques liés à l’arrivée d’un chiot à Paris. Je vous rédigerai un compte rendu à l’issue
-              de la séance</p>
-              <p>Un accompagnement plus poussé peut être proposé <b>sur devis</b>.</p>
+            <div style={{marginBottom:'3rem'}}>
+              <h3>Préparation à l{"'"}adoption</h3>
+              <h5>Durée : 1h30</h5>
+              <h5>À domicile ou en visioconférence</h5>
+              <p>
+                Nous abordons ensemble :</p>
+              <ul>
+                <li>le choix du chien (âge, tempérament, race ou type)</li>
+                <li>votre environnement (appartement, quartier, disponibilité)</li>
+                <li>les besoins fondamentaux du chien</li>
+                <li>les habitudes à mettre en place dès l’arrivée</li>
+                <li>les spécificités selon le type d’adoption (refuge, élevage, particulier)</li>
+              </ul>
+                <p>Un <b>compte rendu personnalisé</b> est rédigé à l’issue de la séance.</p>
+                <p>Un accompagnement plus poussé peut être proposé.</p>
             </div>
-            <div style={{marginTop:'3rem'}}>
-              <h3><b>Séance en visioconférence - entre 30 et 45 minutes</b></h3>
-              <p>Les séances en visioconférence permettent un travail ciblé, notamment pour le suivi éducatif
-              ou comportemental, certaines problématiques spécifiques et les situations ne nécessitant pas
-              de présence physique.</p>
-              <p>La pertinence de la visioconférence est <b>confirmée lors de la prise de contact</b>, afin de
-              garantir un accompagnement adapté.</p>
-              <p>Les séances en visioconférence font l’objet d’un <b>paiement à l{"'"}avance</b>.</p>
+            <div style={{marginBottom:'3rem'}}>
+              <h3>Séance en visioconférence</h3>
+              <h5>Durée : entre 30 et 45 minutes</h5>
+              <p>
+                Les séances en visioconférence permettent un travail ciblé pour :</p>
+              <ul>
+                <li>le suivi éducatif ou comportemental</li>
+                <li>certaines problématiques spécifiques</li>
+                <li>les situations ne nécessitant pas de présence physique</li>
+              </ul>
+                <p>La pertinence de la visioconférence est évaluée lors de la prise de contact, afin de garantir un
+                  accompagnement efficace et adapté.</p>
+                <p>Les séances en visioconférence font l’objet d’un paiement à l’avance.</p>
             </div>
           </div>
         </div>

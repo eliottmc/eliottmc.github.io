@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between; /* logo left, links right */
   align-items: center;
-  background: #1f3d56;
+  background: #8FAF9A;
   padding: 1rem 6rem;
   position: fixed;
   top: 0;
@@ -12,6 +12,11 @@
 .logo-img {
   height: 40px; /* adjust size */
   width: auto;
+  transition: transform 0.5s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.2);
 }
 
 .navbar-links {
@@ -23,13 +28,13 @@
 }
 
 .navbar-links a {
-  color: white;
+  color: #2F2F2F;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .navbar-links a:hover {
-  color: lightgray;
+  color: #F5F3EE;
 }
 
 .navbar-links a:focus {

@@ -1,3 +1,7 @@
 .presta-container h4 {
     font-weight: 500;
 }
+
+.presta-container p, li {
+    text-align: justify;
+}
