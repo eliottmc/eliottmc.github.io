@@ -8,7 +8,7 @@ import dream from '../assets/pictures_gaston_david/Dream.jpeg';
 import maliboo from '../assets/pictures_gaston_david/Maliboo.jpeg';
 import tesla from '../assets/pictures_gaston_david/Tesla.jpeg';
 import gaston_head from '../assets/pictures_gaston_david/gaston_vertical.JPG';
-import icon from '../assets/niche.png';
+import icon from '../assets/gaston_head.avif';
 
 const HomePage = () => {
   return (
