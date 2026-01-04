@@ -16,18 +16,22 @@ const Contact = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'center', paddingBottom:'4rem'}}>
-        <h3>Prendre rendez-vous</h3>
+      <Container data-scroll-index='2' style={{marginTop:'3rem', textAlign:'center', paddingBottom:'4rem'}}>
+        <h3>Mes coordonnées</h3>
+        <p><b>Adresse email</b> : contact@davidmace.fr</p>
+        <p><b>Numéro de téléphone</b> : 06 84 24 28 29</p>
+        <br></br>
+        <h3>Prise de contact</h3>
         <p>Si vous souhaitez prendre rendez-vous, ou si vous avez simplement des questions sur ma méthode ou mes services, n{"'"}hésitez pas à prendre un rendez-vous via le
             calendrier ci-dessous. Je serais ravi de vous aider vous et votre compagnon à quatre pattes !
         </p>
-        <div className="calendly-inline-widget" data-url="https://calendly.com/tandoobot/30min" style={{minWidth:'320px', height:'700px'}}></div>
+        <div className="calendly-inline-widget" data-url="https://calendly.com/davidmace73/10min" style={{minWidth:'320px', height:'700px'}}></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
         <h3>Envoyer un message</h3>
         <p>Vous pouvez également me contacter en remplissant le formulaire ci-dessous. Je vous répondrai dans les plus brefs délais !</p>
         <form
-          action="https://formspree.io/f/xgoevykr"
+          action="https://formspree.io/f/xaqnllqd"
           method="POST"
           style={{ maxWidth: "600px", margin: "2rem auto", textAlign: "left" }}
         >
