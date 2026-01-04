@@ -8,6 +8,8 @@ const Contact = () => {
     <>
     <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
+        <meta name="description" content="Contactez David Macé, éducateur canin comportementaliste à Paris. 
+        Prise de rendez-vous rapide pour bilan, éducation ou accompagnement."></meta>
         <link rel="icon" href={icon} />
       </head>
       <div className={"banner"}>
