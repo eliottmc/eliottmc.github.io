@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 import '../styles/Tarifs.css';
 
-import juno from '../assets/pictures_gaston_david/Maliboo.jpeg';
+import maliboo from '../assets/pictures_gaston_david/maliboo_chien_heureux_education_positive.jpeg';
 import icon from '../assets/niche.png';
 
 const Tarifs = () => {
@@ -57,7 +57,7 @@ const Tarifs = () => {
             </div>
             </Col>
             <Col md={4}>
-              <img src={juno} alt="dog" className="tarif_img" />
+              <img src={maliboo} alt="chien-heureux-education-positive" className="tarif_img" />
             </Col>
             </Row>
             <div style={{marginBottom:'3rem'}}>

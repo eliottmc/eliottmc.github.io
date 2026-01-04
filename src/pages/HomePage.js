@@ -3,10 +3,10 @@ import {Container, Col, Row} from 'react-bootstrap';
 
 import '../styles/HomePage.css';
 
-import david_gaston_bridge from '../assets/pictures_gaston_david/david_gaston_bridge.JPG';
-import gaston_head from '../assets/pictures_gaston_david/gaston_vertical.JPG';
+import david_gaston_bridge from '../assets/pictures_gaston_david/chien_maitre_ville_paris.JPG';
+import gaston_head from '../assets/pictures_gaston_david/chien-ville-paris-vertical.JPG';
 import icon from '../assets/niche.png';
-import david_gaston_reading from '../assets/pictures_gaston_david/david_gaston_reading.JPG';
+import david_gaston_reading from '../assets/pictures_gaston_david/chien_maitre_ville_paris_education_positive.JPG';
 
 const HomePage = () => {
   return (
@@ -23,7 +23,7 @@ const HomePage = () => {
               <h1>David Macé</h1>
               <h3>Éducateur canin comportementaliste à Paris et proche banlieue</h3>
               <div className="img-cropper">
-                <img src={gaston_head} alt="dog" className="banner-img" />
+                <img src={gaston_head} alt="chien-ville-paris" className="banner-img" />
               </div>
               <p>Titulaire ACACED</p>
               <p>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines</p>
@@ -45,12 +45,12 @@ const HomePage = () => {
             et adaptée au quotidien des chiens vivant en milieu urbain.</p>
           </Col>
           <Col md={6}>
-            <img src={david_gaston_bridge} alt="dog" className="presentation-img" />
+            <img src={david_gaston_bridge} alt="chien-maitre-ville-paris" className="presentation-img" />
           </Col>
         </Row>
         <Row className="align-items-center">
           <Col md={4}>
-            <img src={david_gaston_reading} alt="dog" style={{maxHeight: '600px'}} className='presentation-img'/>
+            <img src={david_gaston_reading} alt="chien-maitre-ville-paris-education-positive" style={{maxHeight: '600px'}} className='presentation-img'/>
           </Col>
           <Col md={8}>
             <p>Mon travail consiste à vous proposer des solutions concrètes aux problèmes que vous

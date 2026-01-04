@@ -3,8 +3,8 @@ import {Container, Row} from 'react-bootstrap';
 
 import '../styles/Educ.css';
 
-import gaston_other_dog from '../assets/pictures_gaston_david/gaston_other_dog.JPG';
-import closeup_david_gaston from '../assets/pictures_gaston_david/closeup_david_gaston.JPG';
+import gaston_other_dog from '../assets/pictures_gaston_david/chien_heureux_ville_paris_education_positive.JPG';
+import closeup_david_gaston from '../assets/pictures_gaston_david/chien_maitre_serein_education_positive.JPG';
 import icon from '../assets/niche.png';
 
 const Educ = () => {
@@ -35,7 +35,7 @@ const Educ = () => {
             cohérente et apaisée. C’est précisément dans ce contexte que l’éducation positive prend tout son sens.</p>
         </Row>
         <div style={{textAlign:'center', marginBottom:'2rem'}}>
-          <img src={gaston_other_dog} alt="dog" className="educ_img" />
+          <img src={gaston_other_dog} alt="chien-heureux-ville-paris-education-positive" className="educ_img" />
         </div>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
           <h2>
@@ -108,7 +108,7 @@ const Educ = () => {
           </p>
         </Row>
         <div style={{textAlign:'center', marginBottom:'2rem'}}>
-          <img src={closeup_david_gaston} alt="dog" className="educ_img" />
+          <img src={closeup_david_gaston} alt="chien-maitre-serein-education-positive" className="educ_img" />
         </div>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
           <h2>
