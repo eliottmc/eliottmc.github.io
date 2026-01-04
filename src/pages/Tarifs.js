@@ -61,7 +61,6 @@ const Tarifs = () => {
               <p>*Inclus :
                 <ul>
                   <li>Compte rendu détaillé</li>
-                  <li>2 appels de 10 minutes si besoin</li>
                   <li>Frais de déplacement</li>
                 </ul>
               </p>
