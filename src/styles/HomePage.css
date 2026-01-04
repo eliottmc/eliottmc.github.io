@@ -1,8 +1,8 @@
 .banner {
     text-align: center;
     background: #6F8F7E;
-    padding: 40px 0px 20px;
-    margin-left: 0px
+    padding: 40px 0px 120px;
+    margin-left: 0px;
 }
 
 .img-cropper {
@@ -10,7 +10,7 @@
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
-    margin: 0 auto 10px; /* Center the cropper and add bottom margin */
+    margin: 0 auto 20px; /* Center the cropper and add bottom margin */
 }
 
 .banner-img {
@@ -18,7 +18,7 @@
     height: auto;
     border-radius: 10px;
     object-fit: cover;
-    transform: translate(-60px, -75px);
+    transform: translate(-60px, -160px);
 }
 
 .banner h1 {

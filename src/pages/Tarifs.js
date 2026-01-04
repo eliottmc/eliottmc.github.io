@@ -4,13 +4,14 @@ import {Container, Row, Col} from 'react-bootstrap';
 import '../styles/Tarifs.css';
 
 import juno from '../assets/pictures_gaston_david/Maliboo.jpeg';
+import icon from '../assets/niche.png';
 
 const Tarifs = () => {
   return (
     <>
     <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={icon}/>
       </head>
       <div className={"banner"}>
         <div>
@@ -61,7 +62,6 @@ const Tarifs = () => {
               <p>*Inclus :
                 <ul>
                   <li>Compte rendu détaillé</li>
-                  <li>2 appels de 10 minutes si besoin</li>
                   <li>Frais de déplacement</li>
                 </ul>
               </p>
