@@ -10,7 +10,7 @@
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
-    margin: 0 auto 10px; /* Center the cropper and add bottom margin */
+    margin: 0 auto 20px; /* Center the cropper and add bottom margin */
 }
 
 .banner-img {
