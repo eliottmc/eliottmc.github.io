@@ -1,12 +1,14 @@
 import React from "react";
 import {Container} from 'react-bootstrap';
 
+import icon from '../assets/niche.png';
+
 const Contact = () => {
   return (
     <>
     <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={icon} />
       </head>
       <div className={"banner"}>
         <div>

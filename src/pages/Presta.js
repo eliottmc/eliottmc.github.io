@@ -3,12 +3,14 @@ import {Container, Row} from 'react-bootstrap';
 
 import '../styles/Presta.css';
 
+import icon from '../assets/niche.png';
+
 const Presta = () => {
   return (
     <>
     <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={icon} />
       </head>
       <div className={"banner"}>
         <div>

@@ -5,13 +5,14 @@ import '../styles/Educ.css';
 
 import gaston_other_dog from '../assets/pictures_gaston_david/gaston_other_dog.JPG';
 import closeup_david_gaston from '../assets/pictures_gaston_david/closeup_david_gaston.JPG';
+import icon from '../assets/niche.png';
 
 const Educ = () => {
   return (
     <>
       <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={icon}/>
       </head>
       <div className={"banner"}>
           <div>

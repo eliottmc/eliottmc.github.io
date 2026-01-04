@@ -5,7 +5,7 @@ import '../styles/HomePage.css';
 
 import david_gaston_bridge from '../assets/pictures_gaston_david/david_gaston_bridge.JPG';
 import gaston_head from '../assets/pictures_gaston_david/gaston_vertical.JPG';
-import icon from '../assets/gaston_head.avif';
+import icon from '../assets/niche.png';
 import david_gaston_reading from '../assets/pictures_gaston_david/david_gaston_reading.JPG';
 
 const HomePage = () => {
