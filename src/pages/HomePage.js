@@ -13,6 +13,8 @@ const HomePage = () => {
     <>
       <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
+        <meta name="description" content="Éducateur canin comportementaliste à Paris. Éducation positive et 
+        non coercitive pour chiens citadins et humains sereins, à domicile et en extérieur."></meta>
         <link rel="icon" href={icon} />
       </head>
       <div className={"banner"}>

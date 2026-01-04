@@ -10,6 +10,8 @@ const Presta = () => {
     <>
     <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
+        <meta name="description" content="Bilan comportemental, séances éducatives et accompagnement 
+        à l’adoption à Paris. Éducation canine positive, personnalisée et sans contrainte."></meta>
         <link rel="icon" href={icon} />
       </head>
       <div className={"banner"}>

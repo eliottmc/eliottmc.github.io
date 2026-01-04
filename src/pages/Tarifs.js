@@ -11,6 +11,8 @@ const Tarifs = () => {
     <>
     <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
+        <meta name="description" content="Tarifs clairs pour l’éducation et le comportement canin à Paris. 
+        Séances à domicile ou en extérieur, adaptées à chaque chien et à son humain."></meta>
         <link rel="icon" href={icon}/>
       </head>
       <div className={"banner"}>
