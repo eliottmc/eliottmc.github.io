@@ -1,7 +1,7 @@
-.banner {
+.banner-homepage {
     text-align: center;
     background: #6F8F7E;
-    padding: 40px 0px 120px;
+    padding: 20px 0px 40px;
     margin-left: 0px;
 }
 
@@ -18,30 +18,30 @@
     height: auto;
     border-radius: 10px;
     object-fit: cover;
-    transform: translate(-60px, -160px);
+    transform: translate(-60px, -180px);
 }
 
-.banner h1 {
+.banner-homepage h1 {
     color: white;
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 4rem;
 }
 
-.banner h3 {
+.banner-homepage h3 {
     color: white;
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 2.5rem;
 }
 
-.banner h4 {
+.banner-homepage h4 {
     color: white;
     margin-bottom: 30px;
     font-weight: 100;
 }
 
-.banner p {
+.banner-homepage p {
     color: lightgray;
     margin-bottom: 0px;
 }
