@@ -16,7 +16,7 @@ const Footer = () => {
                     <p>&copy; {new Date().getFullYear()} David Macé - Tous droits réservés.</p>
                     <p><a href="/legals" style={{"color":"#F5F3EE"}}>Mentions légales</a></p>
                     <p>Icon made by yut1655 from <a href="https://www.flaticon.com/" style={{"color":"#F5F3EE"}}>www.flaticon.com</a></p>
-                    <p>Photos réalisées par Sylvie Biscioni</p>
+                    <p>Photos : Sylvie Biscioni</p>
                 </Col>
             </Row>
         </footer>
