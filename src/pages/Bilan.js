@@ -17,73 +17,34 @@ const Bilan = () => {
       <div className={"banner"}>
         <div>
           <Container data-scroll-index='1' style={{textAlign:'center'}}>
-            <h1>Prestations</h1>
+            <h1>Bilan éducatif et comportemental</h1>
           </Container>
         </div>
       </div>
       <Container data-scroll-index='2' style={{marginTop:'2rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}} className="presta-container">
         <div>
-          <div >
-            <div style={{marginBottom:'3rem', textAlign:'justify'}}>
-              <p style={{marginBottom:'0'}}>Chaque séance dure environ une heure.</p>
-              <p style={{marginBottom:'0'}}>Au-delà, les chiens perdent en concentration et en disponibilité.</p>
-              <p>Ce n’est pas une séance de dressage mais un moment de plaisir, d’apprentissage et de complicité entre lui et son humain.</p>
-              <p>Mon but en temps qu’éducateur canin étant de consolider le lien entre le chien et son maître, votre présence est souhaitable. </p>
-              <p>Les séances ont lieu <b>à domicile ou en extérieur</b>, selon l’apprentissage à mettre en place.</p>
-              <p>Je me déplace à Paris ainsi qu’en proche banlieue.</p>
-              <p>Des séances en visioconférence sont possibles, lorsque la problématique le permet.</p>
-              <p>Un compte rendu écrit, reprenant les points travaillés et les axes à poursuivre, vous sera transmis dans les jours suivant la séance.</p>
-              <p>Je reste ensuite joignable pour toute précision ou question complémentaire.</p>
-            </div>
             <div style={{marginBottom:'3rem'}}>
-              <h3><span className="highlight">Séance éducative</span></h3>
+              <h3 style={{marginBottom:'0'}}><span className="highlight">Bilan éducatif et comportemental</span></h3>
+              <h3><span className="highlight">Durée : environ 2 heures - à domicile</span></h3>
               <p>
-                Les séances éducatives permettent de travailler un ou deux apprentissages précis, en fonction de vos besoins et de ceux de votre chien.</p>
-              <p>
-                Elles peuvent concerner de nombreux domaines : la marche en laisse, le rappel, les positions (assis, couché, statique), 
-                l’accueil des visiteurs, les croisements (chiens, humains), les règles du quotidien, ainsi que des exercises ludiques (rapporter, chercher, faire le beau).
-              </p>
-              <p>Les possibilités sont vastes et s’adaptent à votre quotidien et à vos envies.</p>
-              <p>À l’issue de la séance, vous disposez des <b>outils nécessaires pour poursuivre l’apprentissage en autonomie</b>.</p>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h3><span className="highlight">Séance comportementale</span></h3>
-              <p>
-                Les séances comportementales s’adressent aux problématiques telles que les aboiements
-                excessifs, les peurs ou phobies, les difficultés de gestion émotionnelle, tout comportement
-                gênant ou incompris.</p>
-              <p>Elles peuvent également concerner des comportements faisant suite à des changements dans
-                votre environnement aussi variés que l’arrivée d’un bébé, une séparation, un déménagement,
-                ou toute autre modification susceptible de perturber l’équilibre de votre chien.</p>
-              <p>La première séance permet de comprendre la situation, d’identifier les déclencheurs et le contexte, puis de définir une stratégie de travail adaptée.</p>
-              <p>Chaque situation est évaluée individuellement : certains problèmes peuvent se résoudre rapidement,
-                parfois en une séance, d’autres nécessitent un accompagnement progressif.</p>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h3><span className="highlight">Préparation à l{"'"}adoption</span></h3>
-              <p>
-                La préparation à l’adoption permet d’anticiper l’arrivée d’un chien et de construire un projet
-                cohérent, avant et/ou après son arrivée au sein du foyer.</p>
-              <p>Selon vos envies et vos besoins, nous aborderons le choix du chien, votre environnement et
-                mode de vie, les besoins fondamentaux du chien, les habitudes à mettre en place, ainsi que
-                toutes les problématiques liées à l’arrivée d’un chiot à Paris.</p>
-              <p>Un accompagnement plus poussé peut être proposé <b>sur devis</b>.</p>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h3><span className="highlight">Séance en visioconférence</span></h3>
-              <p>
-                Les séances en visioconférence permettent un travail ciblé, notamment pour le suivi éducatif
-                ou comportemental, certaines problématiques spécifiques et les situations ne nécessitant pas
-                de présence physique.</p>
-              <p>La pertinence de la visioconférence est <b>confirmée lors de la prise de contact</b>, afin de garantir un accompagnement adapté.</p>
-              <p style={{marginBottom:'0'}}>Les séances en visioconférence durent environ <b>30 à 45 minutes</b>.</p>
-              <p style={{marginBottom:'0'}}>Elles sont plus courtes car la méthode est différente : en amont du rendez-vous, je vous
-                demanderai des vidéos des comportements qui vous posent question, que j’analyse préalablement.</p>
-              <p>Cette préparation me permet de cibler le travail lors de la séance et de vous transmettre, à l’issue, un compte rendu adapté à votre situation.</p>
-              <p>Les séances en visioconférence font l’objet d’un <b>paiement à l’avance</b>.</p>
+                Le bilan est une étape essentielle pour <b>comprendre votre chien </b>et poser des bases solides.</p>
+              <p>Il peut se faire à n’importe quel moment de la vie de votre chien : à l’arrivée dans son nouveau foyer, 
+                à son passage à l’âge adulte ou à son entrée dans le monde des seniors.</p>
+              <p>Il peut également être pertinent lors de <b>changements dans votre vie</b> : nouveaux horaires ou
+                rythme de travail, modification de la composition du foyer, arrivée d’un congénère, d’un chat,
+                ou tout autre événement susceptible de bouleverser, à des degrés divers, la routine de votre
+                compagnon.</p>
+              <p>Le bilan permet d’aborder de nombreuses questions, de retracer <b>l’histoire de votre chien</b>, et
+                de comprendre <b>l’environnement et le quotidien</b> dans lesquels il évolue.</p>
+              <p>C’est l’occasion de faire un point sur <b>les besoins fondamentaux et les axes comportementaux</b>.</p>
+              <p>Nous prendrons le temps de faire une promenade dans votre quartier pour compléter l’observation.</p>
+              <p>Je vous transmettrai les <b>bases de la communication canine</b>, les bons réflexes à mettre en place et les mauvais à éliminer.</p>
+              <p>À l’issue de cette rencontre, je rédige un <b>compte rendu détaillé</b>, incluant les axes de travail
+                éducatifs et/ou comportementaux, ainsi que des recommandations adaptées à votre chien et à votre mode de vie à Paris.</p>
+              <p style={{marginBottom:'0'}}><b><i>Ce bilan ne constitue en aucun cas un diagnostic médical.</i></b></p>
+              <p>Aucun éducateur n’est habilité à émettre un avis médical. Si je suspecte un problème d’ordre pathologique, je vous orienterai vers un·e vétérinaire comportementaliste.</p>
             </div>
           </div>
-        </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
           <div style={{maxWidth:'400px', margin:'0 auto'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
