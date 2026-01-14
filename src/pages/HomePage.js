@@ -33,7 +33,6 @@ const HomePage = () => {
       </div>
       <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}}>
         <Row className="align-items-center" style={{marginBottom:'4rem'}}>
-          <Col md={6}>
             <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
             j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>
             <p>Je vous accompagne de manière individualisée, pour un bilan comportemental, des séances
@@ -43,11 +42,10 @@ const HomePage = () => {
             <p>Formé à l’<b>éducation positive</b> au centre Entre Chiens, auprès de Gaston Mellet, Yann Forêt et
             du docteur vétérinaire Sylvia Masson, je propose une approche non coercitive, respectueuse,
             et adaptée au quotidien des chiens vivant en milieu urbain.</p>
-          </Col>
-          <Col md={6}>
-            <img src={david_gaston_bridge} alt="chien-maitre-ville-paris" className="presentation-img" />
-          </Col>
         </Row>
+        <div style={{textAlign:'center'}}>
+          <img src={david_gaston_bridge} alt="chien-maitre-ville-paris" className="presentation-img" />
+        </div>
         
         
         <Row className="align-items-center text-center g-0" style={{marginTop:'4rem', justifyContent:'center'}}>  
