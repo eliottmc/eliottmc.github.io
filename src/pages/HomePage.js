@@ -3,7 +3,7 @@ import {Container, Col, Row} from 'react-bootstrap';
 
 import '../styles/HomePage.css';
 
-import david_gaston_bridge from '../assets/pictures_gaston_david/chien_maitre_ville_paris.jpg';
+import david_gaston_bridge from '../assets/pictures_gaston_david/chien_maitre_ville_paris.JPG';
 import gaston_head from '../assets/pictures_gaston_david/chien-ville-paris-vertical.JPG';
 import icon from '../assets/niche.png';
 
