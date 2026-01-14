@@ -20,15 +20,15 @@ const Contact = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'3rem', textAlign:'center', paddingBottom:'4rem'}}>
+      <Container data-scroll-index='2' style={{marginTop:'3rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}}>
         <h3>Mes coordonnées</h3>
-        <p><b>Adresse email</b> : contact@davidmace.fr</p>
-        <p><b>Numéro de téléphone</b> : 06 84 24 28 29</p>
+        <p style={{marginBottom:'0'}}>Adresse email : <b><a href="mailto:contact@davidmace.fr" style={{"color":"#8A5A3C"}}>contact@davidmace.fr</a></b></p>
+        <p>Numéro de téléphone : <b>06 84 24 28 29</b></p>
         <br></br>
         <h3>Prise de contact</h3>
-        <p>Si vous souhaitez prendre rendez-vous, ou si vous avez simplement des questions sur ma méthode ou mes services, n{"'"}hésitez pas à prendre un rendez-vous via le
-            calendrier ci-dessous. Je serais ravi de vous aider vous et votre compagnon à quatre pattes !
-        </p>
+        <p>Vous pouvez me contacter par téléphone ou par email si vous avez une question, un doute, ou si vous souhaitez un premier échange.</p>
+        <p style={{marginBottom:'0'}}>Si vous préférez, vous pouvez également prendre directement rendez-vous pour un premier échange téléphonique gratuit via le calendrier ci-dessous.</p>
+        <p>Ce temps d’échange permet de faire un premier point sur votre situation et de voir comment je peux vous accompagner.</p>
         <div className="calendly-inline-widget" data-url="https://calendly.com/davidmace73/10min" style={{minWidth:'320px', height:'700px'}}></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 

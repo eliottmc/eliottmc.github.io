@@ -22,38 +22,33 @@ const Tarifs = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', paddingBottom:'4rem'}} className="presta-container">
-          <Row>
+      <Container data-scroll-index='2' style={{marginTop:'6rem', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}} className="presta-container">
+        <div style={{marginBottom:'3rem', textAlign:'justify'}}>
+              <p style={{marginBottom:'0'}}>Je vous propose un échange téléphonique gratuit d’environ <b>dix minutes</b>, durant lequel vous
+                  pourrez m’exposer votre situation, vos attentes et vos difficultés.</p>
+              <p style={{marginBottom:'0'}}>Cet échange permet de faire un premier point sur votre situation et de voir comment je peux vous accompagner.</p>
+        </div>
+          <Row className="">
             <Col md={8}>
             <div style={{marginBottom:'3rem'}}>
-              <h4>Bilan éducatif et/ou comportemental* - 2 heures : 150€</h4>
+              <h4><span className="highlight">Séances</span></h4>
               <ul>
-                <li>À domicile</li>
-                <li>180€ après 20h, week-end et jours fériés</li>
+                <li><b>Séance éducatives, comportementale ou préparation à l{"'"}adoption</b>
+                <p><b>Durée : environ 1 heure — Tarif : 60 €</b></p></li>
+                <li><b>Bilan éducatif et comportemental</b>
+                <p><b>Durée : environ 2 heures — Tarif : 150 €</b></p></li>
               </ul>
+              <p>Les frais de déplacement ainsi qu’un <p>compte rendu écrit de séance</p> sont inclus dans ces tarifs.</p>
             </div>
             <div style={{marginBottom:'3rem'}}>
-              <h4>Séance éducative ou comportementale* - 1 heure : 60€</h4>
+              <h4><span className="highlight">Conditions particulières</span></h4>
+              <p>Une majoration de <b>25 %</b> est appliquée pour les rendez-vous :</p>
               <ul>
-                <li>Première séance à domicile</li>
-                <li>80€ après 20h, week-end et jours fériés</li>
+                <li>après 20h,</li>
+                <li>le week-end,</li>
+                <li>et les jours fériés</li>
               </ul>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h4>Préparation à l{"'"}adoption* - 1h30 : 100€</h4>
-              <ul>
-                <li>À domicile ou en visioconférence</li>
-                <li>120€ après 20h, week-end et jours fériés</li>
-                <li>Devis sur demande si besoin d{"'"}un accompagnent plus poussé</li>
-                <li>-20% pour les adoptions en refuge</li>
-              </ul>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h4>Séance en visioconférence : 30min : 45€ / 45min : 65€</h4>
-              <ul>
-                <li>Confirmer lors de la prise de contact que la problématique se prête à la visioconférence</li>
-                <li>60/80€ après 20h, week-end et jours fériés</li>
-              </ul>
+              <p><b>Les séances en visioconférence et les créneaux en horaires décalés font l’objet d’un paiement à l’avance.</b></p>
             </div>
             </Col>
             <Col md={4}>
@@ -61,14 +56,21 @@ const Tarifs = () => {
             </Col>
             </Row>
             <div style={{marginBottom:'3rem'}}>
-              <p>*Inclus :
-                <ul>
-                  <li>Compte rendu détaillé</li>
-                  <li>Frais de déplacement</li>
-                </ul>
-              </p>
-              <p><b>Les séances en visioconférence et les créneaux en horaires décalés font l{"'"}objet d{"'"}un paiement à l{"'"}avance.</b></p>
+              <h4><span className="highlight">Adoption en refuge/association</span></h4>
+              <p>Une remise de <b>20 %</b> est proposée :</p>
+              <ul>
+                <li>sur le <b>bilan</b></li>
+                <li>ou sur la <b>première séance</b> (éducative, comportementale ou préparation à l’adoption)</li>
+              </ul>
+              <p>pour les chiens adoptés en refuge ou en association, sur présentation d’un justificatif.</p>
             </div>
+            <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
+              <div style={{maxWidth:'400px', margin:'0 auto'}}> 
+                <button className="button" onClick={() => window.location.href='/contact'}>
+                  Premier échange gratuit
+                </button>
+              </div>
+            </Row>
       </Container>
     </>
   );

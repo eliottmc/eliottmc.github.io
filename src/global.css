@@ -8,15 +8,32 @@
     src: url('./assets/fonts/inter.ttf') format('truetype');
 }
 
-h1, h2, h3{
-    font-family: 'source-sans', sans-serif;
+h1 {
+    font-family: 'inter';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: 'inter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: 'inter';
+    margin-bottom: 2rem;
 }
 
 body {
     font-family: 'inter';
     font-size: 18px;
-    color: #2F2F2F;
+    color: #1F1F1F;
     margin: 0;
+    font-weight: 400;
+    line-height: 1.7;
 }
 
 html {
@@ -36,4 +53,9 @@ label {
 
 b {
     color: #8A5A3C;
+}
+
+.highlight {
+    background: #8FAF9A;
+    display: inline;
 }

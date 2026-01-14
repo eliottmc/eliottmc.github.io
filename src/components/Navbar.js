@@ -16,7 +16,13 @@ const Navbar = () => {
           <Link to="/">Accueil</Link>
         </li>
         <li>
+          <Link to="/approche">Approche</Link>
+        </li>
+        <li>
           <Link to="/prestations">Prestations</Link>
+        </li>
+        <li>
+          <Link to="/bilan">Bilan éducatif et comportemental</Link>
         </li>
         <li>
           <Link to="/tarifs">Tarifs</Link>
