@@ -24,6 +24,7 @@ h2 {
 
 h3 {
     font-family: 'inter';
+    margin-bottom: 2rem;
 }
 
 body {
@@ -52,4 +53,9 @@ label {
 
 b {
     color: #8A5A3C;
+}
+
+.highlight {
+    background: #8FAF9A;
+    display: inline;
 }
