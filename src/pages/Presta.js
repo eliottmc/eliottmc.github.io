@@ -21,114 +21,73 @@ const Presta = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'2rem', textAlign:'justify', paddingBottom:'4rem'}} className="presta-container">
+      <Container data-scroll-index='2' style={{marginTop:'2rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}} className="presta-container">
         <div>
           <div >
             <div style={{marginBottom:'3rem', textAlign:'justify'}}>
+              <p style={{marginBottom:'0'}}>Chaque séance dure environ une heure.</p>
+              <p style={{marginBottom:'0'}}>Au-delà, les chiens perdent en concentration et en disponibilité.</p>
+              <p>Ce n’est pas une séance de dressage mais un moment de plaisir, d’apprentissage et de complicité entre lui et son humain.</p>
+              <p>Mon but en temps qu’éducateur canin étant de consolider le lien entre le chien et son maître, votre présence est souhaitable. </p>
+              <p>Les séances ont lieu <b>à domicile ou en extérieur</b>, selon l’apprentissage à mettre en place.</p>
+              <p>Je me déplace à Paris ainsi qu’en proche banlieue.</p>
+              <p>Des séances en visioconférence sont possibles, lorsque la problématique le permet.</p>
+              <p>Un compte rendu écrit, reprenant les points travaillés et les axes à poursuivre, vous sera transmis dans les jours suivant la séance.</p>
+              <p>Je reste ensuite joignable pour toute précision ou question complémentaire.</p>
+            </div>
+            <div style={{marginBottom:'3rem'}}>
+              <h3><span className="highlight">Séance éducative</span></h3>
               <p>
-                J’accompagne les chiens et leurs humains vivant à Paris et en proche banlieue, en proposant
-                des prestations d’éducation canine et de comportement adaptées au <b>milieu urbain</b>, au
-                <b>quotidien en appartement</b>, et aux réalités de la vie citadine.
+                Les séances éducatives permettent de travailler un ou deux apprentissages précis, en fonction de vos besoins et de ceux de votre chien.</p>
+              <p>
+                Elles peuvent concerner de nombreux domaines : la marche en laisse, le rappel, les positions (assis, couché, statique), 
+                l’accueil des visiteurs, les croisements (chiens, humains), les règles du quotidien, ainsi que des exercises ludiques (rapporter, chercher, faire le beau).
               </p>
-              <p>
-                Chaque accompagnement est individualisé, respectueux du chien et fondé sur une <b>approche
-                d’éducation positive</b>, sans contrainte ni coercition.
-              </p>
+              <p>Les possibilités sont vastes et s’adaptent à votre quotidien et à vos envies.</p>
+              <p>À l’issue de la séance, vous disposez des <b>outils nécessaires pour poursuivre l’apprentissage en autonomie</b>.</p>
             </div>
             <div style={{marginBottom:'3rem'}}>
-              <h3>Bilan éducatif et/ou comportemental</h3>
-              <h5>Durée : 2 heures – à domicile</h5>
+              <h3><span className="highlight">Séance comportementale</span></h3>
               <p>
-                Afin de comprendre la situation dans son ensemble, je vous poserai de nombreuses questions
-                sur votre chien, son environnement ainsi que les difficultés que vous rencontrez.</p>
-              <p>
-                Une promenade en extérieur est proposée afin d’observer le comportement de votre chien en
-                extérieur (marche en laisse, croisements, environnement urbain).
-              </p>
-              <p>À l{"'"}issue du bilan, je rédige un <b>compte rendu détaillé</b>, incluant :</p>
-              <ul>
-                <li>les axes de travai éducatifs et/ou comportementaux </li>
-                <li>des recommandations concrètes</li>
-                <li>une stratégie adaptée à votre chien et à votre mode de vie à Paris</li>
-              </ul>
-                <p>Ce bilan ne constitue <b>en aucun cas un diagnostic médical</b>.
-              Aucun éducateur n’est habilité à émettre un avis médical. Si je suspecte un problème d’ordre
-              pathologique, je vous orienterai vers un·e vétérinaire comportementaliste, mais en aucun cas
-              je ne vous donnerai un avis sur une question médicale. C’est déontologiquement interdit et
-              éthiquement douteux.</p>
+                Les séances comportementales s’adressent aux problématiques telles que les aboiements
+                excessifs, les peurs ou phobies, les difficultés de gestion émotionnelle, tout comportement
+                gênant ou incompris.</p>
+              <p>Elles peuvent également concerner des comportements faisant suite à des changements dans
+                votre environnement aussi variés que l’arrivée d’un bébé, une séparation, un déménagement,
+                ou toute autre modification susceptible de perturber l’équilibre de votre chien.</p>
+              <p>La première séance permet de comprendre la situation, d’identifier les déclencheurs et le contexte, puis de définir une stratégie de travail adaptée.</p>
+              <p>Chaque situation est évaluée individuellement : certains problèmes peuvent se résoudre rapidement,
+                parfois en une séance, d’autres nécessitent un accompagnement progressif.</p>
             </div>
             <div style={{marginBottom:'3rem'}}>
-              <h3>Séance éducative</h3>
-              <h5>Durée : 1 heure</h5>
-              <h5>Première séance à domicile recommandée</h5>
+              <h3><span className="highlight">Préparation à l{"'"}adoption</span></h3>
               <p>
-                Les séances éducatives permettent de travailler un ou deux apprentissages précis, selon vos
-                objectifs et les besoins de votre chien, à domicile ou en extérieur, comme :</p>
-              <ul>
-                <li>la marche en laisse</li>
-                <li>le rappel</li>
-                <li>les positions (assis, couché, statique)</li>
-                <li>l’accueil des visiteurs</li>
-                <li>les croisements chiens et humains</li>
-                <li>les règles du quotidien en appartement</li>
-              </ul>
-                <p>À l’issue de la séance, vous disposez d’outils clairs pour poursuivre le travail en autonomie et
-                renforcer la relation avec votre chien.</p>
+                La préparation à l’adoption permet d’anticiper l’arrivée d’un chien et de construire un projet
+                cohérent, avant et/ou après son arrivée au sein du foyer.</p>
+              <p>Selon vos envies et vos besoins, nous aborderons le choix du chien, votre environnement et
+                mode de vie, les besoins fondamentaux du chien, les habitudes à mettre en place, ainsi que
+                toutes les problématiques liées à l’arrivée d’un chiot à Paris.</p>
+              <p>Un accompagnement plus poussé peut être proposé <b>sur devis</b>.</p>
             </div>
             <div style={{marginBottom:'3rem'}}>
-              <h3>Séance comportementale</h3>
-              <h5>Durée : 1 heure</h5>
+              <h3><span className="highlight">Séance en visioconférence</span></h3>
               <p>
-                Les séances comportementales s’adressent à des problématiques telles que :</p>
-              <ul>
-                <li>les aboiements excessifs</li>
-                <li>les peurs ou phobies</li>
-                <li>les difficultés de gestion émotionnelle</li>
-                <li>les comportements gênants ou incompris</li>
-              </ul>
-                <p>La première séance permet de comprendre la problématique et de définir les déclencheurs,
-                dans le contexte de vie du chien.</p>
-                <p>Un <b>compte rendu écrit</b> est transmis, accompagné si nécessaire d’une proposition de séances
-                  de suivi.</p>
-                <p>Certains problèmes peuvent se résoudre rapidement, d’autres nécessitent un accompagnement
-                  progressif.</p>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h3>Préparation à l{"'"}adoption</h3>
-              <h5>Durée : 1h30</h5>
-              <h5>À domicile ou en visioconférence</h5>
-              <p>
-                Nous abordons ensemble :</p>
-              <ul>
-                <li>le choix du chien (âge, tempérament, race ou type)</li>
-                <li>votre environnement (appartement, quartier, disponibilité)</li>
-                <li>les besoins fondamentaux du chien</li>
-                <li>les habitudes à mettre en place dès l’arrivée</li>
-                <li>les spécificités selon le type d’adoption (refuge, élevage, particulier)</li>
-              </ul>
-                <p>Un <b>compte rendu personnalisé</b> est rédigé à l’issue de la séance.</p>
-                <p>Un accompagnement plus poussé peut être proposé.</p>
-            </div>
-            <div style={{marginBottom:'3rem'}}>
-              <h3>Séance en visioconférence</h3>
-              <h5>Durée : entre 30 et 45 minutes</h5>
-              <p>
-                Les séances en visioconférence permettent un travail ciblé pour :</p>
-              <ul>
-                <li>le suivi éducatif ou comportemental</li>
-                <li>certaines problématiques spécifiques</li>
-                <li>les situations ne nécessitant pas de présence physique</li>
-              </ul>
-                <p>La pertinence de la visioconférence est évaluée lors de la prise de contact, afin de garantir un
-                  accompagnement efficace et adapté.</p>
-                <p>Les séances en visioconférence font l’objet d’un paiement à l’avance.</p>
+                Les séances en visioconférence permettent un travail ciblé, notamment pour le suivi éducatif
+                ou comportemental, certaines problématiques spécifiques et les situations ne nécessitant pas
+                de présence physique.</p>
+              <p>La pertinence de la visioconférence est <b>confirmée lors de la prise de contact</b>, afin de garantir un accompagnement adapté.</p>
+              <p style={{marginBottom:'0'}}>Les séances en visioconférence durent environ <b>30 à 45 minutes</b>.</p>
+              <p style={{marginBottom:'0'}}>Elles sont plus courtes car la méthode est différente : en amont du rendez-vous, je vous
+                demanderai des vidéos des comportements qui vous posent question, que j’analyse préalablement.</p>
+              <p>Cette préparation me permet de cibler le travail lors de la séance et de vous transmettre, à l’issue, un compte rendu adapté à votre situation.</p>
+              <p>Les séances en visioconférence font l’objet d’un <b>paiement à l’avance</b>.</p>
             </div>
           </div>
         </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
           <div style={{maxWidth:'400px', margin:'0 auto'}}> 
-            <button className="button" onClick={() => window.location.href='/tarifs'}>
-              En savoir plus sur les tarifs
+            <button className="button" onClick={() => window.location.href='/contact'}>
+              Des questions ?
             </button>
           </div>
         </Row>
