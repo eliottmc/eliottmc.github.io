@@ -31,7 +31,7 @@ const HomePage = () => {
             </Container>
           </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}}>
+      <Container data-scroll-index='2' className="homepage-content">
         <Row className="align-items-center" style={{marginBottom:'4rem'}}>
             <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
             j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>

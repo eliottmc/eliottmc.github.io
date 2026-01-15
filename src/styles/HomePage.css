@@ -1,27 +1,92 @@
 .banner-homepage {
     text-align: center;
     background: #6F8F7E;
-    padding: 20px 0px 40px;
+    padding: 10px 0px 20px;
     margin-left: 0px;
 }
 
+@media (min-width: 768px) {
+    .banner-homepage {
+    text-align: center;
+    background: #6F8F7E;
+    padding: 20px 0px 40px;
+    margin-left: 0px;
+}
+}
+
+.presentation-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+    .presentation-img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0px;
+}
+}
+
 .img-cropper {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 1.5rem auto;
+}
+
+.banner-img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-30px);
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .banner-img {
+    width: 150%;
+    height: auto;
+    max-width: 200%;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: translate(-60px, -180px);}
+
+    .img-cropper {
     width: 300px;
     height: 300px;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 20px; /* Center the cropper and add bottom margin */
 }
-
-.banner-img {
-    width: 150%;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    transform: translate(-60px, -180px);
 }
 
 .banner-homepage h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.banner-homepage h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.banner-homepage h4 {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+@media (min-width: 768px) {
+    .banner-homepage h1 {
     color: white;
     margin-bottom: 20px;
     font-weight: 600;
@@ -39,18 +104,11 @@
     color: white;
     margin-bottom: 30px;
     font-weight: 100;
-}
+}}
 
 .banner-homepage p {
     color: lightgray;
     margin-bottom: 0px;
-}
-
-.presentation-img {
-    width: 70%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 0px;
 }
 
 .carrousel-img {
@@ -80,4 +138,29 @@
 
 .body h2{
     text-align: center;
+}
+
+.homepage-content {
+    margin-top: 3rem;
+    padding: 1.2rem;
+    text-align: left;
+}
+
+.homepage-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+}
+
+@media (min-wdth: 768px) {
+    .homepage-content {
+        padding: 3rem 4rem;
+        text-align: justify;
+    }
+
+}@media (min-width: 1200px) {
+    .homepage-content {
+        padding: 4rem 10rem;
+        text-align: justify;
+    }
 }
