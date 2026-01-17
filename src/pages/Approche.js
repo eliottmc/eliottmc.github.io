@@ -23,7 +23,7 @@ const Approche = () => {
             </Container>
           </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}}>
+      <Container data-scroll-index='2' className="approche-container">
         <Row className="align-items-stretch" style={{marginBottom:'2rem'}}>
         <h3> <span className='highlight'>Une approche individualisée et adaptée à la vie urbaine</span></h3>
         <h3>Chaque chien, comme chaque humain, est unique.</h3>

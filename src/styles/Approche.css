@@ -1,0 +1,24 @@
+.approche-container {
+    margin-top: 6rem; 
+    text-align: justify; 
+    padding-bottom: 4rem; 
+    padding-left: 10rem; 
+    padding-right: 10rem;
+}
+
+@media(max-width:767px) {
+    .approche-container {
+        font-size: 1rem;
+        text-align: left;
+    }
+}
+
+@media(min-width:768px) {
+    .approche-container {
+        margin-top: 6rem; 
+        text-align: justify; 
+        padding-bottom: 4rem; 
+        padding-left: 10rem; 
+        padding-right: 10rem;
+    }
+}
