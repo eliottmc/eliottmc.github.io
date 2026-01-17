@@ -37,12 +37,14 @@
     font-weight: 500;
 }
 
-.presta-container p,
-.presta-container li {
-  text-align: left;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
+@media (max-width: 767px) {
+  .presta-container p,
+    .presta-container li {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    }
 }
 
 @media (min-width: 768px) {
