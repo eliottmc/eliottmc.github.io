@@ -21,7 +21,7 @@ const Presta = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'2rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}} className="presta-container">
+      <Container data-scroll-index='2' className="presta-container">
         <div>
           <div >
             <div style={{marginBottom:'3rem', textAlign:'justify'}}>
@@ -84,7 +84,7 @@ const Presta = () => {
             </div>
           </div>
         </div>
-        <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
+        <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
           <div style={{maxWidth:'400px', margin:'0 auto'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
               Des questions ?
