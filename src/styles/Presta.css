@@ -1,39 +1,88 @@
 .banner {
-    text-align: center;
-    background: #6F8F7E;
-    padding: 40px 0px 40px;
-    margin-left: 0px;
+  text-align: center;
+  background: #6F8F7E;
+  padding: 2rem 1rem;
+  margin-left: 0;
 }
 
 .banner h1 {
-    color: white;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 4rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .banner h3 {
-    color: white;
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .banner h4 {
-    color: white;
-    margin-bottom: 30px;
-    font-weight: 100;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 .banner p {
-    color: lightgray;
-    margin-bottom: 0px;
+  color: lightgray;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .presta-container h4 {
     font-weight: 500;
 }
 
-.presta-container p, li {
+@media (max-width: 767px) {
+  .presta-container p,
+    .presta-container li {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    padding: 3rem 2rem;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner h3 {
+    font-size: 2rem;
+  }
+
+  .presta-container p,
+  .presta-container li {
     text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner {
+    padding: 4rem 0;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+
+  .banner h3 {
+    font-size: 2.5rem;
+  }
+  .presta-container{
+    margin-top: 2rem;
+    text-align: justify; 
+    padding-bottom: 4rem; 
+    padding-left: 10rem; 
+    padding-right: 10rem;
+  }
 }

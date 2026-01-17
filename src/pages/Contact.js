@@ -3,6 +3,8 @@ import {Container} from 'react-bootstrap';
 
 import icon from '../assets/niche.png';
 
+import '../styles/Presta.css';
+
 const Contact = () => {
   return (
     <>
@@ -20,7 +22,7 @@ const Contact = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'3rem', textAlign:'justify', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}}>
+      <Container data-scroll-index='2' className="presta-container">
         <h3>Mes coordonnées</h3>
         <p style={{marginBottom:'0'}}>Adresse email : <b><a href="mailto:contact@davidmace.fr" style={{"color":"#8A5A3C"}}>contact@davidmace.fr</a></b></p>
         <p>Numéro de téléphone : <b>06 84 24 28 29</b></p>
@@ -29,7 +31,7 @@ const Contact = () => {
         <p>Vous pouvez me contacter par téléphone ou par email si vous avez une question, un doute, ou si vous souhaitez un premier échange.</p>
         <p style={{marginBottom:'0'}}>Si vous préférez, vous pouvez également prendre directement rendez-vous pour un premier échange téléphonique gratuit via le calendrier ci-dessous.</p>
         <p>Ce temps d’échange permet de faire un premier point sur votre situation et de voir comment je peux vous accompagner.</p>
-        <div className="calendly-inline-widget" data-url="https://calendly.com/davidmace73/10min" style={{minWidth:'320px', height:'700px'}}></div>
+        <div className="calendly-inline-widget" data-url="https://calendly.com/davidmace73/10min" style={{minWidth:'320px', height:'700px', marginBottom:'2rem'}}></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
         <h3>Envoyer un message</h3>
@@ -37,7 +39,7 @@ const Contact = () => {
         <form
           action="https://formspree.io/f/xaqnllqd"
           method="POST"
-          style={{ maxWidth: "600px", margin: "2rem auto", textAlign: "left" }}
+          className="presta-container"
         >
           <div
             style={{
@@ -124,7 +126,7 @@ const Contact = () => {
             />
           </div>
 
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center", paddingBottom: "4rem" }}>
             <button
             className="button"
               type="submit"

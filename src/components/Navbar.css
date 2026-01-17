@@ -1,9 +1,10 @@
+/* Existing styles */
 .navbar {
   display: flex;
   justify-content: space-between; /* logo left, links right */
   align-items: center;
   background: #8FAF9A;
-  padding: 1rem 6rem;
+  padding: 0.75rem 1rem;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -24,7 +25,7 @@
   display: flex;
   gap: 1.5rem;
   margin: 0;
-  padding-right: 60px;
+  padding-right: 0;
 }
 
 .navbar-links a {
@@ -43,5 +44,96 @@
 }
 
 .navbar-logo {
-  padding-left: 60px;
+  padding-left: 20px;
+}
+
+@media(min-width: 768px) {
+  .navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+  background: #8FAF9A;
+  padding: 1rem 6rem;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  }
+
+  .navbar-logo {
+    padding-left: 60px;
+  }
+}
+
+/* BURGER BUTTON (mobile only) */
+.burger {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+  padding-right: 20px;
+}
+
+.burger span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  margin: 5px 0;
+  background: #2F2F2F;
+  transition: 0.3s ease;
+}
+
+/* Burger animation */
+.burger.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.burger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* MOBILE MENU */
+@media (max-width: 767px) {
+  .navbar-links {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #8FAF9A;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    padding-top: 8rem;
+    padding-right: 2rem;
+  }
+
+  .navbar-links.open {
+    transform: translateX(0);
+  }
+
+  .navbar-links a {
+    font-size: 1.2rem;
+  }
+}
+
+/* DESKTOP: hide burger, restore links */
+@media (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
+  .navbar-links {
+    position: static;
+    height: auto;
+    transform: none;
+    flex-direction: row;
+    padding-right: 60px;
+  }
 }

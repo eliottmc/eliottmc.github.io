@@ -22,7 +22,7 @@ const Tarifs = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' style={{marginTop:'6rem', paddingBottom:'4rem', paddingLeft:'10rem', paddingRight:'10rem'}} className="presta-container">
+      <Container data-scroll-index='2' className="presta-container">
         <div style={{marginBottom:'3rem', textAlign:'justify'}}>
               <p style={{marginBottom:'0'}}>Je vous propose un échange téléphonique gratuit d’environ <b>dix minutes</b>, durant lequel vous
                   pourrez m’exposer votre situation, vos attentes et vos difficultés.</p>
@@ -64,7 +64,7 @@ const Tarifs = () => {
               </ul>
               <p>pour les chiens adoptés en refuge ou en association, sur présentation d’un justificatif.</p>
             </div>
-            <Row className="align-items-center text-center" style={{marginTop:'4rem'}}>
+            <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
               <div style={{maxWidth:'400px', margin:'0 auto'}}> 
                 <button className="button" onClick={() => window.location.href='/contact'}>
                   Premier échange gratuit
