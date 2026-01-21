@@ -17,21 +17,24 @@ const HomePage = () => {
         <link rel="icon" href={icon} />
       </head>
       <div className={"banner-homepage"}>
-          <div>
-            <Container data-scroll-index='1' style={{textAlign:'center'}}>
-              <h1>David Macé</h1>
-              <h3 style={{marginBottom: '0px'}}>Éducateur canin comportementaliste</h3>
-              <h3 style={{paddingTop: '0px'}}>Paris et proche banlieue</h3>
+          <Container data-scroll-index='1' style={{justifyContent: 'center', display: 'flex'}}>
+            <div className="banner_homepage_content">
+              <h1 style={{marginBottom: '0px'}}>David Macé</h1>
+              <h5 style={{marginBottom: '25px'}}>Éducateur canin comportementaliste</h5>
+              <h3 style={{marginBottom: '0px'}}>Éducation positive pour chiens citadins</h3>
+              <h3 style={{paddingTop: '0px'}}><i>- Paris et proche banlieue -</i></h3>
               <div className="img-cropper">
                 <img src={gaston_head} alt="chien-ville-paris" className="banner-img" />
               </div>
               <p>Titulaire ACACED</p>
-              <p>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines</p>
-              <p>Certifié RSCH n°6621</p>
-            </Container>
-          </div>
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <p style = {{maxWidth: '500px'}}>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines - Certifié RSCH n°6621</p>
+              </div>
+            </div>
+          </Container>
       </div>
-      <Container data-scroll-index='2' className="homepage-content">
+      <Container data-scroll-index='2'>
+        <div className="homepage_content">
         <Row className="align-items-center" style={{marginBottom:'4rem'}}>
             <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
             j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>
@@ -60,6 +63,7 @@ const HomePage = () => {
             </button>
           </Col>
         </Row>
+        </div>
       </Container>
     </>
   );

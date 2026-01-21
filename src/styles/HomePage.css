@@ -85,6 +85,11 @@
     font-weight: 100;
 }
 
+.banner-homepage h5 {
+    color: white;
+    font-weight: 400;
+}
+
 @media (min-width: 768px) {
     .banner-homepage h1 {
     color: white;
@@ -140,14 +145,14 @@
     text-align: center;
 }
 
-.homepage-content {
+.homepage_content {
     margin-top: 3rem;
     padding: 1.2rem;
     text-align: left;
 }
 
 @media(max-width: 767px) {
-    .homepage-content p {
+    .homepage_content p {
         font-size: 1rem;
         line-height: 1.6;
         margin-bottom: 1.2rem;
@@ -155,7 +160,7 @@
 }
 
 @media (min-width: 768px) {
-    .homepage-content {
+    .homepage_content {
         padding-left: 10rem;
         padding-right: 10rem;
         text-align: justify;
@@ -163,7 +168,7 @@
 }
 
 @media (min-width: 1200px) {
-    .homepage-content {
+    .homepage_content {
         padding-left: 10rem;
         padding-right: 10rem;
         text-align: justify;
