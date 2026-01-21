@@ -17,16 +17,16 @@ const Educ = () => {
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
-              <h1>Pourquoi l{"'"}éducation positive en ville ?</h1>
+              <h1>L{"'"}éducation positive en ville</h1>
             </Container>
           </div>
       </div>
-      <Container data-scroll-index='2' style={{paddingBottom:'4rem'}}>
+      <Container data-scroll-index='2'>
         <div className='container-educ'>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
-          <h2>
+          <h3>
             Vivre avec un chien en milieu urbain
-          </h2>
+          </h3>
           <p>
             La ville impose des contraintes spécifiques aux chiens… et à leurs humains.
             Bruit, foule, promiscuité, transports, croisements fréquents, manque d’espaces naturels : le
@@ -39,9 +39,9 @@ const Educ = () => {
           <img src={gaston_other_dog} alt="chien-heureux-ville-paris-education-positive" className="educ_img" />
         </div>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
-          <h2>
+          <h3>
             Qu’est-ce que l’éducation positive ?
-          </h2>
+          </h3>
           <p>L’éducation positive repose sur des méthodes <b>non coercitives</b>, qui excluent :
             <ul>
                 <li>la contrainte physique;</li>
@@ -53,19 +53,17 @@ const Educ = () => {
             On s’appuie sur la compréhension des comportements, la motivation, la répétition et la
             cohérence.
             Contrairement aux idées reçues, ce n’est <b>ni du laxisme</b>, ni une absence de règles.
-            C’est une éducation structurée, exigeante, mais respectueuse.
+            C’est une éducation structurée, exigeante, mais respectueuse. Un chien a besoin de règles pour son équilibre.
           </p>
         </Row>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
-          <h2>
-            Pourquoi est-ce particulièrement adapté à la ville ?
-          </h2>
-          <h3>1 - Parce que la contrainte est omniprésente</h3>
+          <h3>
+            Une méthode pour les chiens citadins
+          </h3>
           <p>En ville, le chien est déjà sousmis à de nombreuses contraintes : laisse, règles strictes, espaces limités, stimulations constantes.
             Ajouter de la contrainte éducative (colliers coercitifs, réprimandes, mises en échec) augmente souvent le stress, les réactions émotionnelles
             et les comportements gênants (aboiements, réactivité, peurs). L{"'"}éducation positive permet au contraire de <b>réduire la pression</b>, 
             d{"'"}installer de la compréhension et la prévisibilité dans un environnement déjà exigeant.</p>
-        <h3>2 - Parce que la communication est essentielle</h3>
         <p>Beaucoup de problématiques rencontrées en ville ne sont pas des problèmes de “désobéissance”, mais :
             <ul>
                 <li>des problèmes de communication;</li>
@@ -81,7 +79,7 @@ const Educ = () => {
                 <li>envoyer des messages clairs et cohérents.</li>
             </ul>
         </p>
-        <h3>3 - Parce que les chiens adorent apprendre</h3>
+        <h3>Le plaisir d{"'"}apprendre</h3>
         <p>Un chien n{"'"}a pas seulement besoin de se dépenser physiquement. Il a aussi de besoin : 
             <ul>
                 <li>de stimulation mentale;</li>
@@ -95,9 +93,9 @@ const Educ = () => {
         <p>Apprendre, pour un chien, c{"'"}est <b>comprendre le monde dans lequel il vit.</b></p>
         </Row>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
-          <h2>
+          <h3>
             Renforcer le lien humain-chien
-          </h2>
+          </h3>
           <p>L’éducation positive repose sur l’implication de l’humain, elle demande du temps, de la constance et de l’investissement.
             En retour, elle permet :
             <ul>
@@ -111,23 +109,17 @@ const Educ = () => {
         <div style={{textAlign:'center', marginBottom:'2rem'}}>
           <img src={closeup_david_gaston} alt="chien-maitre-serein-education-positive" className="educ_img" />
         </div>
-        <Row className="text-row" style={{marginBottom:'2rem'}}>
-          <h2>
-            Une approche réaliste, adaptée à Paris
-          </h2>
+        <Row className="text-row">
+          <h3>
+            Une approche adaptée à Paris
+          </h3>
           <p>L{"'"}éducation positive que je propose n’est pas théorique, elle est pensée pour : les appartements, les troittoirs, 
             les parcs urbains, les transports, la vie réelle à Paris.
             Chaque chien, chaque humain, chaque situation est différente. Il n’existe pas de méthode universelle, 
-            mais des<b>outils adaptés</b>, ajustés à votre quotidien.
+            mais des <b>outils adaptés</b>, ajustés à votre quotidien.
           </p>
-        </Row>
-        <Row className="text-row" style={{marginBottom:'2rem'}}>
-          <h2>
-            Pour quels chiens ? Pour quels humains ?
-          </h2>
           <p>Cette approche est particulièrement adaptée si :
             <ul>
-                <li>vous vivez en ville;</li>
                 <li>vous souhaitez comprendre votre chien plutôt que le contraindre;</li>
                 <li>vous êtes prêt•e à investir dans son éducation;</li>
                 <li>vous cherchez des solutions durables pas des recettes miracles.</li>

@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.text-row h3{
+    font-family: "abril"
+}
+
 .text-row p {
     text-align: justify;
 }
