@@ -19,13 +19,13 @@ const HomePage = () => {
       <div className={"banner-homepage"}>
           <Container data-scroll-index='1' style={{justifyContent: 'center', display: 'flex'}}>
             <div className="banner_homepage_content">
-              <h1 style={{marginBottom: '0px'}}>David Macé</h1>
+              <h1 style={{marginBottom: '0px', marginTop: '15px'}}>David Macé</h1>
               <h5 style={{marginBottom: '25px'}}>Éducateur canin comportementaliste</h5>
-              <h3 style={{marginBottom: '0px'}}>Éducation positive pour chiens citadins</h3>
-              <h3 style={{paddingTop: '0px'}}><i>- Paris et proche banlieue -</i></h3>
               <div className="img-cropper">
                 <img src={gaston_head} alt="chien-ville-paris" className="banner-img" />
               </div>
+              <h3>Éducation positive pour chiens citadins</h3>
+              <h3 style={{paddingTop: '0px', color: "lightgray"}}><i>- Paris et proche banlieue -</i></h3>
               <p>Titulaire ACACED</p>
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <p style = {{maxWidth: '500px'}}>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines - Certifié RSCH n°6621</p>
