@@ -21,8 +21,8 @@ const Bilan = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' className="presta-container">
-        <div>
+      <Container data-scroll-index='2'>
+        <div className="presta-container">
             <div style={{marginBottom:'3rem'}}>
               <h3 style={{marginBottom:'0'}}><span className="highlight">Bilan éducatif et comportemental</span></h3>
               <h3><span className="highlight">Durée : environ 2 heures - à domicile</span></h3>
@@ -44,7 +44,6 @@ const Bilan = () => {
               <p style={{marginBottom:'0'}}><b><i>Ce bilan ne constitue en aucun cas un diagnostic médical.</i></b></p>
               <p>Aucun éducateur n’est habilité à émettre un avis médical. Si je suspecte un problème d’ordre pathologique, je vous orienterai vers un·e vétérinaire comportementaliste.</p>
             </div>
-          </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
           <div style={{maxWidth:'400px', margin:'0 auto'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
@@ -52,6 +51,7 @@ const Bilan = () => {
             </button>
           </div>
         </Row>
+        </div>
       </Container>
     </>
   );

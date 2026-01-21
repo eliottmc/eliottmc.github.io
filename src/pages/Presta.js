@@ -21,8 +21,8 @@ const Presta = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' className="presta-container">
-        <div>
+      <Container data-scroll-index='2'>
+        <div className="presta-container">
           <div >
             <div style={{marginBottom:'3rem', textAlign:'justify'}}>
               <p style={{marginBottom:'0'}}>Chaque séance dure environ une heure.</p>
@@ -83,7 +83,6 @@ const Presta = () => {
               <p>Les séances en visioconférence font l’objet d’un <b>paiement à l’avance</b>.</p>
             </div>
           </div>
-        </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
           <div style={{maxWidth:'400px', margin:'0 auto'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
@@ -91,6 +90,7 @@ const Presta = () => {
             </button>
           </div>
         </Row>
+        </div>
       </Container>
     </>
   );

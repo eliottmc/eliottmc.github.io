@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .contact-container{
+    margin-top: 2rem;
+    text-align: justify; 
+    padding-bottom: 4rem; 
+    padding-left: 9rem; 
+    padding-right: 9rem;
+  }
+}

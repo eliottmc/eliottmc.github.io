@@ -21,7 +21,8 @@ const Educ = () => {
             </Container>
           </div>
       </div>
-      <Container data-scroll-index='2' style={{paddingBottom:'4rem'}} className='container-educ'>
+      <Container data-scroll-index='2' style={{paddingBottom:'4rem'}}>
+        <div className='container-educ'>
         <Row className="text-row" style={{marginBottom:'2rem'}}>
           <h2>
             Vivre avec un chien en milieu urbain
@@ -133,6 +134,7 @@ const Educ = () => {
             </ul>
           </p>
         </Row>
+        </div>
       </Container>
     </>
   );

@@ -22,7 +22,8 @@ const Tarifs = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' className="presta-container">
+      <Container data-scroll-index='2'>
+        <div className="presta-container">
         <div style={{marginBottom:'3rem', textAlign:'justify'}}>
               <p style={{marginBottom:'0'}}>Je vous propose un échange téléphonique gratuit d’environ <b>dix minutes</b>, durant lequel vous
                   pourrez m’exposer votre situation, vos attentes et vos difficultés.</p>
@@ -71,6 +72,7 @@ const Tarifs = () => {
                 </button>
               </div>
             </Row>
+            </div>
       </Container>
     </>
   );

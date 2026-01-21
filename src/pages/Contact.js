@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap';
 
 import icon from '../assets/niche.png';
 
-import '../styles/Presta.css';
+import '../styles/Contact.css';
 
 const Contact = () => {
   return (
@@ -22,7 +22,8 @@ const Contact = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' className="presta-container">
+      <Container data-scroll-index='2'>
+        <div className="contact-container">
         <h3>Mes coordonnées</h3>
         <p style={{marginBottom:'0'}}>Adresse email : <b><a href="mailto:contact@davidmace.fr" style={{"color":"#8A5A3C"}}>contact@davidmace.fr</a></b></p>
         <p>Numéro de téléphone : <b>06 84 24 28 29</b></p>
@@ -135,6 +136,7 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        </div>
       </Container>
     </>
   );
