@@ -29,9 +29,8 @@ const Contact = () => {
         <p>Numéro de téléphone : <b>06 84 24 28 29</b></p>
         <br></br>
         <h3>Prise de contact</h3>
-        <p>Vous pouvez me contacter par téléphone ou par email si vous avez une question, un doute, ou si vous souhaitez un premier échange.</p>
-        <p style={{marginBottom:'0'}}>Si vous préférez, vous pouvez également prendre directement rendez-vous pour un premier échange téléphonique gratuit via le calendrier ci-dessous.</p>
-        <p>Ce temps d’échange permet de faire un premier point sur votre situation et de voir comment je peux vous accompagner.</p>
+        <p>Vous pouvez me contacter par téléphone ou par email si vous avez une question, un doute, ou pour un premier échange.</p>
+        <p style={{marginBottom:'0'}}>Si vous préférez, vous pouvez également prendre directement rendez-vous pour un premier échange téléphonique gratuit via le calendrier ci-dessous : je vous appellerai à l{"'"}heure de votre choix</p>
         <div className="calendly-inline-widget" data-url="https://calendly.com/davidmace73/10min" style={{minWidth:'320px', height:'700px', marginBottom:'2rem'}}></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
