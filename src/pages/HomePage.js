@@ -54,7 +54,7 @@ const HomePage = () => {
         <Row className="align-items-center text-center g-0" style={{marginTop:'4rem', justifyContent:'center'}}>  
           <Col style={{maxWidth:'400px'}}>
             <button className="button" onClick={() => window.location.href='/approche'}>
-              Mon approche
+              À propos
             </button>
           </Col>
           <Col style={{maxWidth:'400px'}}>

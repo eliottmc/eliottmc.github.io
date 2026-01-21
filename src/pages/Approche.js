@@ -19,19 +19,20 @@ const Approche = () => {
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>
-              <h1>Mon approche</h1>
+              <h1>À propos</h1>
             </Container>
           </div>
       </div>
       <Container data-scroll-index='2'>
         <div className='approche-container'>
         <Row className="align-items-stretch" style={{marginBottom:'2rem'}}>
-        <h3> <span className='highlight'>Une approche individualisée et adaptée à la vie urbaine</span></h3>
-        <h3>Chaque chien, comme chaque humain, est unique.</h3>
+        <h3 style={{fontFamily: 'abril'}}> Une approche individualisée et adaptée à la vie urbaine</h3>
+        <h3></h3>
           <Col md={4} style={{display: 'flex'}}>
             <img src={david_gaston_reading} alt="chien-maitre-ville-paris-education-positive" style={{width: '100%', objectFit: 'cover'}} className='presentation-img'/>
           </Col>
           <Col md={8} style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+            <p>Chaque chien, comme chaque humain, est unique.</p>
             <p>Il n’existe pas de séance « type », ni de frontière rigide entre éducation et comportement.
                 Mon travail est toujours un accompagnement <b>adapté à votre chien, à votre environnement
                 et à votre quotidien</b>, à Paris comme en proche banlieue, <b>ainsi qu’à la problématique que

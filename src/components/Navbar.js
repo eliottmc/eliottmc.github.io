@@ -30,7 +30,7 @@ const Navbar = () => {
       {/* Navigation links */}
       <ul className={`navbar-links ${open ? "open" : ""}`}>
         <li><Link to="/" onClick={closeMenu}>Accueil</Link></li>
-        <li><Link to="/approche" onClick={closeMenu}>Approche</Link></li>
+        <li><Link to="/approche" onClick={closeMenu}>À propos</Link></li>
         <li><Link to="/prestations" onClick={closeMenu}>Prestations</Link></li>
         <li><Link to="/bilan" onClick={closeMenu}>Bilan éducatif et comportemental</Link></li>
         <li><Link to="/tarifs" onClick={closeMenu}>Tarifs</Link></li>
