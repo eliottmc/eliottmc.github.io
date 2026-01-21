@@ -27,22 +27,20 @@ const Tarifs = () => {
         <div style={{marginBottom:'3rem', textAlign:'justify'}}>
               <p style={{marginBottom:'0'}}>Je vous propose un échange téléphonique gratuit d’environ <b>dix minutes</b>, durant lequel vous
                   pourrez m’exposer votre situation, vos attentes et vos difficultés.</p>
-              <p style={{marginBottom:'0'}}>Cet échange permet de faire un premier point sur votre situation et de voir comment je peux vous accompagner.</p>
+              <p style={{marginBottom:'0'}}>Cet échange permet de faire un premier point sur votre situation.</p>
         </div>
           <Row className="">
             <Col md={8}>
             <div style={{marginBottom:'3rem'}}>
-              <h4><span className="highlight">Séances</span></h4>
-              <ul>
-                <li><b>Séance éducatives, comportementale ou préparation à l{"'"}adoption</b>
-                <p><b>Durée : environ 1 heure — Tarif : 60 €</b></p></li>
-                <li><b>Bilan éducatif et comportemental</b>
-                <p><b>Durée : environ 2 heures — Tarif : 150 €</b></p></li>
-              </ul>
-              <p>Les frais de déplacement ainsi qu’un <p>compte rendu écrit de séance</p> sont inclus dans ces tarifs.</p>
+              <h4 style={{fontFamily:"abril"}}>Tarifs</h4>
+                <span style={{fontFamily:"abril"}}>Séance éducatives, comportementale ou préparation à l{"'"}adoption</span>
+                <p><b>Durée : environ 1 heure — Tarif : 60 €</b></p>
+                <span style={{fontFamily:"abril"}}>Bilan éducatif et comportemental</span>
+                <p><b>Durée : environ 2 heures — Tarif : 150 €</b></p>
+              <p>Les frais de déplacement ainsi qu’un compte rendu écrit de séance sont inclus dans ces tarifs.</p>
             </div>
             <div style={{marginBottom:'3rem'}}>
-              <h4><span className="highlight">Conditions particulières</span></h4>
+              <h4 style={{fontFamily:"abril"}}>Conditions particulières</h4>
               <p>Une majoration de <b>25 %</b> est appliquée pour les rendez-vous :</p>
               <ul>
                 <li>après 20h,</li>
@@ -57,7 +55,7 @@ const Tarifs = () => {
             </Col>
             </Row>
             <div style={{marginBottom:'3rem'}}>
-              <h4><span className="highlight">Adoption en refuge/association</span></h4>
+              <h4 style={{fontFamily:"abril"}}>Adoption en refuge/association</h4>
               <p>Une remise de <b>20 %</b> est proposée :</p>
               <ul>
                 <li>sur le <b>bilan</b></li>
