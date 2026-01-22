@@ -4,26 +4,26 @@
 }
 
 @font-face{
-    font-family: 'inter';
-    src: url('./assets/fonts/inter.ttf') format('truetype');
+    font-family: 'abril';
+    src: url('./assets/fonts/abril.ttf') format('truetype');
 }
 
 h1 {
-    font-family: 'inter';
+    font-family: 'abril';
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.2;
 }
 
 h2 {
-    font-family: 'inter';
+    font-family: 'source-sans';
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 1.2;
 }
 
 h3 {
-    font-family: 'inter';
+    font-family: 'source-sans';
     margin-bottom: 1.2rem;
 }
 
@@ -40,7 +40,7 @@ h3 {
 }
 
 body {
-    font-family: 'inter';
+    font-family: 'source-sans';
     font-size: 18px;
     color: #1F1F1F;
     margin: 0;

@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .contact-container{
+    margin-top: 2rem;
+    text-align: justify; 
+    padding-left: 9rem; 
+    padding-right: 9rem;
+  }
+}
+
+
+.contact-container h3 {
+    font-family: 'abril';
+}
+
+.contact-container {
+  padding-bottom: 40px
+}

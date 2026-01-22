@@ -21,11 +21,10 @@ const Bilan = () => {
           </Container>
         </div>
       </div>
-      <Container data-scroll-index='2' className="presta-container">
-        <div>
+      <Container data-scroll-index='2'>
+        <div className="presta-container">
             <div style={{marginBottom:'3rem'}}>
-              <h3 style={{marginBottom:'0'}}><span className="highlight">Bilan éducatif et comportemental</span></h3>
-              <h3><span className="highlight">Durée : environ 2 heures - à domicile</span></h3>
+              <h3><b><i><span style={{color:"#1F1F1F"}}>Durée : environ 2 heures - à domicile</span></i></b></h3>
               <p>
                 Le bilan est une étape essentielle pour <b>comprendre votre chien </b>et poser des bases solides.</p>
               <p>Il peut se faire à n’importe quel moment de la vie de votre chien : à l’arrivée dans son nouveau foyer, 
@@ -41,17 +40,17 @@ const Bilan = () => {
               <p>Je vous transmettrai les <b>bases de la communication canine</b>, les bons réflexes à mettre en place et les mauvais à éliminer.</p>
               <p>À l’issue de cette rencontre, je rédige un <b>compte rendu détaillé</b>, incluant les axes de travail
                 éducatifs et/ou comportementaux, ainsi que des recommandations adaptées à votre chien et à votre mode de vie à Paris.</p>
-              <p style={{marginBottom:'0'}}><b><i>Ce bilan ne constitue en aucun cas un diagnostic médical.</i></b></p>
+              <p style={{marginBottom:'0'}}><b><i><span style={{color:"#1F1F1F"}}>Ce bilan ne constitue en aucun cas un diagnostic médical.</span></i></b></p>
               <p>Aucun éducateur n’est habilité à émettre un avis médical. Si je suspecte un problème d’ordre pathologique, je vous orienterai vers un·e vétérinaire comportementaliste.</p>
             </div>
-          </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
-          <div style={{maxWidth:'400px', margin:'0 auto'}}> 
+          <div style={{display:'flex', justifyContent:'center'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
               Des questions ?
             </button>
           </div>
         </Row>
+        </div>
       </Container>
     </>
   );

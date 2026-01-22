@@ -33,6 +33,10 @@
   line-height: 1.5;
 }
 
+.presta-container h3 {
+  font-family: 'abril';
+}
+
 .presta-container h4 {
     font-weight: 500;
 }

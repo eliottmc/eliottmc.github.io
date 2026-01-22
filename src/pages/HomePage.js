@@ -17,22 +17,25 @@ const HomePage = () => {
         <link rel="icon" href={icon} />
       </head>
       <div className={"banner-homepage"}>
-          <div>
-            <Container data-scroll-index='1' style={{textAlign:'center'}}>
-              <h1>David Macé</h1>
-              <h3 style={{marginBottom: '0px'}}>Éducateur canin comportementaliste</h3>
-              <h3 style={{paddingTop: '0px'}}>Paris et proche banlieue</h3>
+          <Container data-scroll-index='1' style={{justifyContent: 'center', display: 'flex'}}>
+            <div className="banner_homepage_content">
+              <h1 style={{marginBottom: '0px', marginTop: '10px'}}>David Macé</h1>
+              <h5 style={{marginBottom: '25px'}}>Éducateur canin comportementaliste</h5>
               <div className="img-cropper">
                 <img src={gaston_head} alt="chien-ville-paris" className="banner-img" />
               </div>
+              <h3 style={{marginBottom: '10px'}}>Éducation positive pour chiens citadins</h3>
+              <h3 style={{paddingTop: '0px', color: "lightgray", marginBottom: '10px'}}><i>- Paris et proche banlieue -</i></h3>
               <p>Titulaire ACACED</p>
-              <p>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines</p>
-              <p>Certifié RSCH n°6621</p>
-            </Container>
-          </div>
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <p style = {{maxWidth: '500px'}}>Formation d{"'"}éducation, de rééducation comportementale et d{"'"}intégration sociale canines - Certifié RSCH n°6621</p>
+              </div>
+            </div>
+          </Container>
       </div>
-      <Container data-scroll-index='2' className="homepage-content">
-        <Row className="align-items-center" style={{marginBottom:'4rem'}}>
+      <Container data-scroll-index='2'>
+        <div className="homepage_content">
+        <Row className="align-items-center" style={{marginBottom:'40px'}}>
             <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
             j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>
             <p>Je vous accompagne de manière individualisée, pour un bilan comportemental, des séances
@@ -48,18 +51,19 @@ const HomePage = () => {
         </div>
         
         
-        <Row className="align-items-center text-center g-0" style={{marginTop:'4rem', justifyContent:'center'}}>  
-          <Col style={{maxWidth:'400px'}}>
+        <div className="button-container">  
+          <Col>
             <button className="button" onClick={() => window.location.href='/approche'}>
-              Mon approche
+              À propos
             </button>
           </Col>
-          <Col style={{maxWidth:'400px'}}>
+          <Col>
             <button className="button" onClick={() => window.location.href='/contact'}>
               Premier échange
             </button>
           </Col>
-        </Row>
+        </div>
+        </div>
       </Container>
     </>
   );

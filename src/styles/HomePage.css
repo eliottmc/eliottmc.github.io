@@ -85,6 +85,11 @@
     font-weight: 100;
 }
 
+.banner-homepage h5 {
+    color: white;
+    font-weight: 400;
+}
+
 @media (min-width: 768px) {
     .banner-homepage h1 {
     color: white;
@@ -124,30 +129,45 @@
     color: white;
     border: 1px solid black;
     padding: 20px 40px;
+    height: 80px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.6s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+    width: fit-content;
 }
 
 .button:hover {
     background-color: #6F8F7E;
-    transform: scale(1.1);;
+    transform: scale(1.1);
 }
 
 .body h2{
     text-align: center;
 }
 
-.homepage-content {
-    margin-top: 3rem;
+.homepage_content {
+    margin-top: 15px;
     padding: 1.2rem;
     text-align: left;
 }
 
 @media(max-width: 767px) {
-    .homepage-content p {
+    .homepage_content p {
         font-size: 1rem;
         line-height: 1.6;
         margin-bottom: 1.2rem;
@@ -155,7 +175,7 @@
 }
 
 @media (min-width: 768px) {
-    .homepage-content {
+    .homepage_content {
         padding-left: 10rem;
         padding-right: 10rem;
         text-align: justify;
@@ -163,7 +183,7 @@
 }
 
 @media (min-width: 1200px) {
-    .homepage-content {
+    .homepage_content {
         padding-left: 10rem;
         padding-right: 10rem;
         text-align: justify;
