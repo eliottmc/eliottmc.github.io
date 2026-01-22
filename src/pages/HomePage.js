@@ -35,7 +35,7 @@ const HomePage = () => {
       </div>
       <Container data-scroll-index='2'>
         <div className="homepage_content">
-        <Row className="align-items-center" style={{marginBottom:'4rem'}}>
+        <Row className="align-items-center" style={{marginBottom:'40px'}}>
             <p>Éducateur canin spécialisé dans les problématiques éducatives et comportementales,
             j’interviens principalement à <b>Paris et en proche banlieue</b>.</p>
             <p>Je vous accompagne de manière individualisée, pour un bilan comportemental, des séances
@@ -51,18 +51,18 @@ const HomePage = () => {
         </div>
         
         
-        <Row className="align-items-center text-center g-0" style={{marginTop:'4rem', justifyContent:'center'}}>  
-          <Col style={{maxWidth:'400px'}}>
+        <div className="button-container">  
+          <Col>
             <button className="button" onClick={() => window.location.href='/approche'}>
               À propos
             </button>
           </Col>
-          <Col style={{maxWidth:'400px'}}>
+          <Col>
             <button className="button" onClick={() => window.location.href='/contact'}>
               Premier échange
             </button>
           </Col>
-        </Row>
+        </div>
         </div>
       </Container>
     </>

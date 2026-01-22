@@ -62,7 +62,7 @@ const Approche = () => {
         </Row>
         
         <Row className="align-items-center text-center g-0" style={{marginTop:'4rem', justifyContent:'center'}}>  
-          <Col style={{maxWidth:'400px'}}>
+          <Col style={{display:'flex', justifyContent:'center'}}>
             <button className="button" onClick={() => window.location.href='/contact'}>
               Me contacter
             </button>

@@ -2,7 +2,6 @@
     .contact-container{
     margin-top: 2rem;
     text-align: justify; 
-    padding-bottom: 4rem; 
     padding-left: 9rem; 
     padding-right: 9rem;
   }
@@ -11,4 +10,8 @@
 
 .contact-container h3 {
     font-family: 'abril';
+}
+
+.contact-container {
+  padding-bottom: 40px
 }

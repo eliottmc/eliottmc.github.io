@@ -82,7 +82,7 @@ const Presta = () => {
             </div>
           </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
-          <div style={{maxWidth:'400px', margin:'0 auto'}}> 
+          <div style={{display:'flex', justifyContent:'center'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
               Des questions ?
             </button>

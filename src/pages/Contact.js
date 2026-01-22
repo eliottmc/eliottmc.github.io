@@ -126,7 +126,7 @@ const Contact = () => {
             />
           </div>
 
-          <div style={{ textAlign: "center", paddingBottom: "4rem" }}>
+          <div style={{display:'flex', justifyContent:'center'}}>
             <button
             className="button"
               type="submit"

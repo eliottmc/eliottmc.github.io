@@ -44,7 +44,7 @@ const Bilan = () => {
               <p>Aucun éducateur n’est habilité à émettre un avis médical. Si je suspecte un problème d’ordre pathologique, je vous orienterai vers un·e vétérinaire comportementaliste.</p>
             </div>
         <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
-          <div style={{maxWidth:'400px', margin:'0 auto'}}> 
+          <div style={{display:'flex', justifyContent:'center'}}> 
             <button className="button" onClick={() => window.location.href='/contact'}>
               Des questions ?
             </button>

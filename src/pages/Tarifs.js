@@ -64,7 +64,7 @@ const Tarifs = () => {
               <p>pour les chiens adoptés en refuge ou en association, sur présentation d’un justificatif.</p>
             </div>
             <Row className="align-items-center text-center" style={{marginTop:'4rem', paddingBottom:'4rem'}}>
-              <div style={{maxWidth:'400px', margin:'0 auto'}}> 
+              <div style={{display:'flex', justifyContent:'center'}}> 
                 <button className="button" onClick={() => window.location.href='/contact'}>
                   Premier échange gratuit
                 </button>
