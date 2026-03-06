@@ -33,7 +33,7 @@ const Tarifs = () => {
             <Col md={8}>
             <div style={{marginBottom:'3rem'}}>
               <h4 style={{fontFamily:"abril"}}>Tarifs</h4>
-                <span style={{fontFamily:"abril"}}>Séance éducatives, comportementale ou préparation à l{"'"}adoption</span>
+                <span style={{fontFamily:"abril"}}>Séance éducative, comportementale ou préparation à l{"'"}adoption</span>
                 <p><b>Durée : environ 1 heure — Tarif : 60 €</b></p>
                 <span style={{fontFamily:"abril"}}>Bilan éducatif et comportemental</span>
                 <p><b>Durée : environ 2 heures — Tarif : 150 €</b></p>
