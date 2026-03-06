@@ -26,7 +26,7 @@ const Presta = () => {
           <div >
             <div style={{marginBottom:'3rem', textAlign:'justify'}}>
               <p>Chaque séance dure environ <b>une heure</b>.</p>
-              <p>Mon but en temps qu’éducateur canin étant de <b>consolider le lien</b> entre le chien et son maître, votre présence est souhaitable. </p>
+              <p>Mon but en tant qu’éducateur canin étant de <b>consolider le lien</b> entre le chien et son maître, votre présence est souhaitable. </p>
               <p>Les séances ont lieu <b>à domicile ou en extérieur</b>, selon l’apprentissage à mettre en place.</p>
               <p>Je me déplace à Paris ainsi qu’en proche banlieue.</p>
               <p>Des <b>séances en visioconférence</b> sont possibles, lorsque la problématique le permet.</p>
@@ -39,7 +39,7 @@ const Presta = () => {
                 Les séances éducatives permettent de travailler un ou deux apprentissages précis, en fonction de vos besoins et de ceux de votre chien.</p>
               <p>
                 Elles peuvent concerner de nombreux domaines : la marche en laisse, le rappel, les positions (assis, couché, statique), 
-                l’accueil des visiteurs, les croisements (chiens, humains), les règles du quotidien, ainsi que des exercises ludiques (rapporter, chercher, faire le beau).
+                l’accueil des visiteurs, les croisements (chiens, humains), les règles du quotidien, ainsi que des exercices ludiques (rapporter, chercher, faire le beau).
               </p>
               <p>Les possibilités sont vastes et s’adaptent à votre quotidien et à vos envies.</p>
               <p>À l’issue de la séance, vous disposez des <b>outils nécessaires pour poursuivre l’apprentissage en autonomie</b>.</p>
@@ -62,7 +62,7 @@ const Presta = () => {
               <p>
                 La préparation à l’adoption permet d’<b>anticiper l’arrivée d’un chien</b> et de construire un projet
                 cohérent, avant et/ou après son arrivée au sein du foyer.</p>
-              <p>Selon <b>vos envies et vos besoins</b>, nous aborderons le choix du chien, votre environnement et
+              <p>Selon <b>vos envies et vos besoins</b>, nous aborderons le choix du chien, votre environnement et votre
                 mode de vie, les besoins fondamentaux du chien, les habitudes à mettre en place, ainsi que
                 toutes les problématiques liées à l’arrivée d’un chiot à Paris.</p>
               <p>Un accompagnement plus poussé peut être proposé <b>sur devis</b>.</p>
@@ -76,7 +76,7 @@ const Presta = () => {
               <p>La pertinence de la visioconférence est <b>confirmée lors de la prise de contact</b>, afin de garantir un accompagnement adapté.</p>
               <p style={{marginBottom:'0'}}>Les séances en visioconférence durent environ <b>30 à 45 minutes</b>.</p>
               <p style={{marginBottom:'0'}}>Elles sont plus courtes car la méthode est différente : en amont du rendez-vous, je vous
-                demanderai des vidéos des comportements qui vous posent question, que j’analyse préalablement.</p>
+                demanderai des vidéos des comportements qui vous posent question, que j’analyserai préalablement.</p>
               <p>Cette préparation me permet de cibler le travail lors de la séance et de vous transmettre, à l’issue, un compte rendu adapté à votre situation.</p>
               <p>Les séances en visioconférence font l’objet d’un <b>paiement à l’avance</b>.</p>
             </div>

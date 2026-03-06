@@ -60,7 +60,7 @@ const Educ = () => {
           <h3>
             Une méthode pour les chiens citadins
           </h3>
-          <p>En ville, le chien est déjà sousmis à de nombreuses contraintes : laisse, règles strictes, espaces limités, stimulations constantes.
+          <p>En ville, le chien est déjà soumis à de nombreuses contraintes : laisse, règles strictes, espaces limités, stimulations constantes.
             Ajouter de la contrainte éducative (colliers coercitifs, réprimandes, mises en échec) augmente souvent le stress, les réactions émotionnelles
             et les comportements gênants (aboiements, réactivité, peurs). L{"'"}éducation positive permet au contraire de <b>réduire la pression</b>, 
             d{"'"}installer de la compréhension et la prévisibilité dans un environnement déjà exigeant.</p>
@@ -71,7 +71,7 @@ const Educ = () => {
                 <li>une mauvaise lecture des signaux.</li>
             </ul>
             Proxémie, gestion des distances, accueil des visiteurs, croisements en laisse, solitude, excitation sont autant
-            de situation où <b>le chien communique</b>, parfois maladroitement.</p>
+            de situations où <b>le chien communique</b>, parfois maladroitement.</p>
         <p>L{"'"}éducation positive aide l{"'"}humain à :
             <ul>
                 <li>mieux lire son chien;</li>
@@ -80,7 +80,7 @@ const Educ = () => {
             </ul>
         </p>
         <h3>Le plaisir d{"'"}apprendre</h3>
-        <p>Un chien n{"'"}a pas seulement besoin de se dépenser physiquement. Il a aussi de besoin : 
+        <p>Un chien n{"'"}a pas seulement besoin de se dépenser physiquement. Il a aussi besoin de : 
             <ul>
                 <li>de stimulation mentale;</li>
                 <li>d{"'"}apprentissage;</li>
@@ -113,7 +113,7 @@ const Educ = () => {
           <h3>
             Une approche adaptée à Paris
           </h3>
-          <p>L{"'"}éducation positive que je propose n’est pas théorique, elle est pensée pour : les appartements, les troittoirs, 
+          <p>L{"'"}éducation positive que je propose n’est pas théorique, elle est pensée pour : les appartements, les trottoirs, 
             les parcs urbains, les transports, la vie réelle à Paris.
             Chaque chien, chaque humain, chaque situation est différente. Il n’existe pas de méthode universelle, 
             mais des <b>outils adaptés</b>, ajustés à votre quotidien.

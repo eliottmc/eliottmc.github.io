@@ -29,7 +29,7 @@ const Bilan = () => {
                 Le bilan est une étape essentielle pour <b>comprendre votre chien </b>et poser des bases solides.</p>
               <p>Il peut se faire à n’importe quel moment de la vie de votre chien : à l’arrivée dans son nouveau foyer, 
                 à son passage à l’âge adulte ou à son entrée dans le monde des seniors.</p>
-              <p>Il peut également être pertinent lors de <b>changements dans votre vie</b> : nouveaux horaires ou
+              <p>Il peut également être pertinent lors de <b>changements dans votre vie</b> : nouveaux horaires ou nouveau
                 rythme de travail, modification de la composition du foyer, arrivée d’un congénère, d’un chat,
                 ou tout autre événement susceptible de bouleverser, à des degrés divers, la routine de votre
                 compagnon.</p>
