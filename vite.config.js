@@ -7,5 +7,9 @@ export default defineConfig({
   build: {
     outDir: '../dist',
     emptyOutDir: true,
+  },
+  esbuild: {
+    include: /src\/.*\.[jt]sx?$/,
+    loader: 'jsx',
   }
 })
