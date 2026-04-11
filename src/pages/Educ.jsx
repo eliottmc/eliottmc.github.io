@@ -3,9 +3,9 @@ import {Container, Row} from 'react-bootstrap';
 
 import '../styles/Educ.css';
 
-import gaston_other_dog from '../assets/pictures_gaston_david/chien_heureux_ville_paris_education_positive.JPG';
-import closeup_david_gaston from '../assets/pictures_gaston_david/chien_maitre_serein_education_positive.JPG';
-import icon from '../assets/niche.png';
+import gaston_other_dog from '../assets/pictures_gaston_david/chien_heureux_ville_paris_education_positive.webp';
+import closeup_david_gaston from '../assets/pictures_gaston_david/chien_maitre_serein_education_positive.webp';
+import icon from '../assets/niche.webp';
 
 const Educ = () => {
   return (

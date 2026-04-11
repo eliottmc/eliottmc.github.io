@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import niche from "../assets/niche.png";
+import niche from "../assets/niche.webp";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

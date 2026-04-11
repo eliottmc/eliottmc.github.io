@@ -3,7 +3,7 @@ import {Container, Row} from 'react-bootstrap';
 
 import '../styles/Presta.css';
 
-import icon from '../assets/niche.png';
+import icon from '../assets/niche.webp';
 
 const Presta = () => {
   return (
