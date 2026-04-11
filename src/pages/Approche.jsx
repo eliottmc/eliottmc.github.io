@@ -3,8 +3,8 @@ import {Container, Col, Row} from 'react-bootstrap';
 
 import '../styles/Approche.css';
 
-import icon from '../assets/niche.png';
-import david_gaston_reading from '../assets/pictures_gaston_david/chien_maitre_ville_paris_education_positive.JPG';
+import icon from '../assets/niche.webp';
+import david_gaston_reading from '../assets/pictures_gaston_david/chien_maitre_ville_paris_education_positive.webp';
 
 
 const Approche = () => {

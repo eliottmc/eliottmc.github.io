@@ -3,8 +3,8 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 import '../styles/Tarifs.css';
 
-import maliboo from '../assets/pictures_gaston_david/maliboo_chien_heureux_education_positive.jpeg';
-import icon from '../assets/niche.png';
+import maliboo from '../assets/pictures_gaston_david/maliboo_chien_heureux_education_positive.webp';
+import icon from '../assets/niche.webp';
 
 const Tarifs = () => {
   return (

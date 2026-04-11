@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row} from 'react-bootstrap';
 
-import icon from '../assets/niche.png';
+import icon from '../assets/niche.webp';
 
 const Legals = () => {
   return (
