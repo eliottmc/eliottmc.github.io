@@ -44,7 +44,7 @@ const Tarifs = () => {
               <p>Une majoration de <b>25 %</b> est appliquée pour les rendez-vous :</p>
               <ul>
                 <li>après 20h,</li>
-                <li>le week-end,</li>
+                <li>le dimanche,</li>
                 <li>et les jours fériés</li>
               </ul>
               <p><b>Les séances en visioconférence et les créneaux en horaires décalés font l’objet d’un paiement à l’avance.</b></p>
