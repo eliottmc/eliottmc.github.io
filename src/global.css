@@ -1,11 +1,13 @@
 @font-face{
     font-family: 'source-sans';
     src: url('./assets/fonts/source_sans.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face{
     font-family: 'abril';
     src: url('./assets/fonts/abril.ttf') format('truetype');
+    font-display: swap;
 }
 
 h1 {
