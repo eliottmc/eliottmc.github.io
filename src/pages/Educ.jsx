@@ -11,8 +11,11 @@ const Educ = () => {
   return (
     <>
       <head>
-        <title>David Macé - Éducateur comportementaliste canin</title>
+        <title>Éducation positive pour les chiens en ville</title>
+        <meta name="description" content="Contactez David Macé, éducateur canin comportementaliste à Paris. 
+        Prise de rendez-vous rapide pour bilan, éducation ou accompagnement. Éducation positive pour les chiens en ville."></meta>
         <link rel="icon" href={icon}/>
+        <link rel="canonical" href="https://davidmace.fr/education" />
       </head>
       <div className={"banner"}>
           <div>

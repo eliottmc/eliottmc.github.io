@@ -15,6 +15,7 @@ const HomePage = () => {
         <meta name="description" content="Éducateur canin comportementaliste à Paris. Éducation positive et 
         non coercitive pour chiens citadins et humains sereins, à domicile et en extérieur."></meta>
         <link rel="icon" href={icon} />
+        <link rel="canonical" href="https://davidmace.fr/" />
       </head>
       <div className={"banner-homepage"}>
           <Container data-scroll-index='1' style={{justifyContent: 'center', display: 'flex'}}>

@@ -9,10 +9,11 @@ const Presta = () => {
   return (
     <>
     <head>
-        <title>David Macé - Éducateur comportementaliste canin</title>
+        <title>Prestations</title>
         <meta name="description" content="Bilan comportemental, séances éducatives et accompagnement 
-        à l’adoption à Paris. Éducation canine positive, personnalisée et sans contrainte."></meta>
+        à l’adoption à Paris. Éducation canine positive, personnalisée et sans contrainte.Présenatation de me services"></meta>
         <link rel="icon" href={icon} />
+        <link rel="canonical" href="https://davidmace.fr/prestations" />
       </head>
       <div className={"banner"}>
         <div>

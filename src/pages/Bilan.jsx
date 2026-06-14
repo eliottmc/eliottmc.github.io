@@ -9,10 +9,11 @@ const Bilan = () => {
   return (
     <>
     <head>
-        <title>David Macé - Éducateur comportementaliste canin</title>
+        <title>Bilan éducatif et comportemental</title>
         <meta name="description" content="Bilan comportemental, séances éducatives et accompagnement 
-        à l’adoption à Paris. Éducation canine positive, personnalisée et sans contrainte."></meta>
+        à l’adoption à Paris. Présentation du bilan éducatif et comportemental."></meta>
         <link rel="icon" href={icon} />
+        <link rel="canonical" href="https://davidmace.fr/bilan" />
       </head>
       <div className={"banner"}>
         <div>

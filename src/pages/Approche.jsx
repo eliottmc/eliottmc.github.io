@@ -11,10 +11,10 @@ const Approche = () => {
   return (
     <>
       <head>
-        <title>David Macé - Éducateur comportementaliste canin</title>
-        <meta name="description" content="Éducateur canin comportementaliste à Paris. Éducation positive et 
-        non coercitive pour chiens citadins et humains sereins, à domicile et en extérieur."></meta>
+        <title>Mon Approche</title>
+        <meta name="description" content="Éducateur canin comportementaliste à Paris. Description de mon approche. "></meta>
         <link rel="icon" href={icon} />
+        <link rel="canonical" href="https://davidmace.fr/approche" />
       </head>
       <div className={"banner"}>
           <div>
