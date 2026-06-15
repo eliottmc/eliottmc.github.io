@@ -11,9 +11,15 @@ const Tarifs = () => {
     <>
     <head>
         <title>Tarifs</title>
-        <meta name="description" content="Tarifs clairs pour l’éducation et le comportement canin à Paris. 
-        Séances à domicile ou en extérieur, adaptées à chaque chien et à son humain. Présentation des tarfis"></meta>
+        <meta name="description" content="Séance individuelle 60 €. Bilan comportemental complet 150 €. Frais de
+déplacement inclus à Paris et proche banlieue. Remise refuge/association."></meta>
         <link rel="icon" href={icon}/>
+        <meta property="og:title" content="Tarifs éducateur canin à Paris — David Macé" />
+        <meta property="og:description" content="Séance individuelle 60 €. Bilan comportemental complet 150 €. Frais de déplacement inclus à Paris et proche banlieue. Remise refuge/association." />
+        <meta property="og:url" content="https://davidmace.fr/tarifs" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/tarifs" />
       </head>
       <div className={"banner"}>

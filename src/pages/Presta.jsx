@@ -10,9 +10,16 @@ const Presta = () => {
     <>
     <head>
         <title>Prestations</title>
-        <meta name="description" content="Bilan comportemental, séances éducatives et accompagnement 
-        à l’adoption à Paris. Éducation canine positive, personnalisée et sans contrainte.Présenatation de me services"></meta>
+        <meta name="description" content="Séance éducative, comportementale, préparation à l'adoption,
+visioconférence. Compte rendu écrit après chaque séance. Paris et proche
+banlieue."></meta>
         <link rel="icon" href={icon} />
+        <meta property="og:title" content="Prestations : séances éducatives et comportementales à Paris" />
+        <meta property="og:description" content="Séance éducative, comportementale, préparation à l'adoption, visioconférence. Compte rendu écrit après chaque séance. Paris et proche banlieue." />
+        <meta property="og:url" content="https://davidmace.fr/prestations" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/prestations" />
       </head>
       <div className={"banner"}>

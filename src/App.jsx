@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Approche from './pages/Approche';
 import Presta from './pages/Presta';
@@ -29,6 +29,9 @@ const App = () => {
                 <Route path="/education" element={<Educ />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/legals" element={<Legals />} />
+                {[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20].map(n => (
+                    <Route key={n} path={`/comportementaliste-canin-paris-${n}`} element={<Navigate to="/" replace />} />
+                ))}
             </Routes>
             </div>
         </Router>
