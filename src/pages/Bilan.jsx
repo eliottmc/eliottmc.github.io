@@ -13,6 +13,12 @@ const Bilan = () => {
         <meta name="description" content="Bilan comportemental complet à domicile, environ 2 heures. Comprendre votre
 chien, ses besoins, son histoire — pour poser des bases solides ensemble."></meta>
         <link rel="icon" href={icon} />
+        <meta property="og:title" content="Bilan éducatif et comportemental du chien — Paris" />
+        <meta property="og:description" content="Bilan comportemental complet à domicile, environ 2 heures. Comprendre votre chien, ses besoins, son histoire — pour poser des bases solides ensemble." />
+        <meta property="og:url" content="https://davidmace.fr/bilan" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/bilan" />
       </head>
       <div className={"banner"}>

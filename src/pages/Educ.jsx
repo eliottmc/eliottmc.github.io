@@ -16,6 +16,12 @@ const Educ = () => {
 renforcé. Pourquoi elle est particulièrement adaptée aux chiens citadins
 parisiens."></meta>
         <link rel="icon" href={icon}/>
+        <meta property="og:title" content="L'éducation positive du chien en ville — méthode expliquée" />
+        <meta property="og:description" content="L'éducation positive expliquée : méthodes non coercitives, motivation, lien renforcé. Pourquoi elle est particulièrement adaptée aux chiens citadins parisiens." />
+        <meta property="og:url" content="https://davidmace.fr/education" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/education" />
       </head>
       <div className={"banner"}>

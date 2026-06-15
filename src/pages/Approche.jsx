@@ -16,6 +16,12 @@ const Approche = () => {
 et à la vie urbaine parisienne. Découvrez ma méthode et mon parcours de
 formation."></meta>
         <link rel="icon" href={icon} />
+        <meta property="og:title" content="Mon approche de l'éducation canine — David Macé, Paris" />
+        <meta property="og:description" content="Une éducation canine individualisée, non coercitive, adaptée à votre chien et à la vie urbaine parisienne. Découvrez ma méthode et mon parcours de formation." />
+        <meta property="og:url" content="https://davidmace.fr/approche" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/approche" />
       </head>
       <div className={"banner"}>

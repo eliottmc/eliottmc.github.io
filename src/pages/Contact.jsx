@@ -13,6 +13,12 @@ const Contact = () => {
         <meta name="description" content="Contactez David Macé pour un premier échange téléphonique gratuit. Email,
 téléphone, formulaire en ligne. Réponse rapide. Paris et proche banlieue."></meta>
         <link rel="icon" href={icon} />
+        <meta property="og:title" content="Contact — David Macé, éducateur canin à Paris" />
+        <meta property="og:description" content="Contactez David Macé pour un premier échange téléphonique gratuit. Email, téléphone, formulaire en ligne. Réponse rapide. Paris et proche banlieue." />
+        <meta property="og:url" content="https://davidmace.fr/contact" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/contact" />
       </head>
       <div className={"banner"}>
