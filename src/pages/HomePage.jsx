@@ -22,6 +22,25 @@ const HomePage = () => {
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/" />
+        <script type="application/ld+json">{`
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "David Macé — Éducateur canin comportementaliste",
+  "description": "Éducation positive pour chiens citadins à Paris.",
+  "url": "https://davidmace.fr",
+  "telephone": "+33684242829",
+  "email": "contact@davidmace.fr",
+  "areaServed": ["Paris", "Île-de-France"],
+  "priceRange": "€€",
+  "founder": {
+    "@type": "Person",
+    "name": "David Macé",
+    "jobTitle": "Éducateur canin comportementaliste",
+    "hasCredential": "ACACED, RSCH n°6621"
+  }
+}
+        `}</script>
       </head>
       <div className={"banner-homepage"}>
           <Container data-scroll-index='1' style={{justifyContent: 'center', display: 'flex'}}>
