@@ -12,7 +12,9 @@ const Approche = () => {
     <>
       <head>
         <title>Mon Approche</title>
-        <meta name="description" content="Éducateur canin comportementaliste à Paris. Description de mon approche. "></meta>
+        <meta name="description" content="Une éducation canine individualisée, non coercitive, adaptée à votre chien
+et à la vie urbaine parisienne. Découvrez ma méthode et mon parcours de
+formation."></meta>
         <link rel="icon" href={icon} />
         <link rel="canonical" href="https://davidmace.fr/approche" />
       </head>
