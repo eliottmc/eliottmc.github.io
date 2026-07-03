@@ -9,7 +9,7 @@ const Presta = () => {
   return (
     <>
     <head>
-        <title>Prestations</title>
+        <title>Prestations : séances éducatives et comportementales à Paris</title>
         <meta name="description" content="Séance éducative, comportementale, préparation à l'adoption,
 visioconférence. Compte rendu écrit après chaque séance. Paris et proche
 banlieue."></meta>

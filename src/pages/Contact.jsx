@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
     <head>
-        <title>Contact</title>
+        <title>Contact — David Macé, éducateur canin à Paris</title>
         <meta name="description" content="Contactez David Macé pour un premier échange téléphonique gratuit. Email,
 téléphone, formulaire en ligne. Réponse rapide. Paris et proche banlieue."></meta>
         <link rel="icon" href={icon} />

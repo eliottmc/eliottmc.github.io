@@ -11,7 +11,7 @@ const Approche = () => {
   return (
     <>
       <head>
-        <title>Mon Approche</title>
+        <title>Mon approche de l'éducation canine — David Macé, Paris</title>
         <meta name="description" content="Une éducation canine individualisée, non coercitive, adaptée à votre chien
 et à la vie urbaine parisienne. Découvrez ma méthode et mon parcours de
 formation."></meta>

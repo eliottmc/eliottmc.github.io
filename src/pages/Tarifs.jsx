@@ -10,7 +10,7 @@ const Tarifs = () => {
   return (
     <>
     <head>
-        <title>Tarifs</title>
+        <title>Tarifs éducateur canin à Paris — David Macé</title>
         <meta name="description" content="Séance individuelle 60 €. Bilan comportemental complet 150 €. Frais de
 déplacement inclus à Paris et proche banlieue. Remise refuge/association."></meta>
         <link rel="icon" href={icon}/>
