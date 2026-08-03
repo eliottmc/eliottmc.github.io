@@ -8,7 +8,6 @@ import icon from '../assets/niche.webp';
 const Bilan = () => {
   return (
     <>
-    <head>
         <title>Bilan éducatif et comportemental du chien — David Macé, Paris</title>
         <meta name="description" content="Bilan comportemental complet à domicile, environ 2 heures. Comprendre votre
 chien, ses besoins, son histoire — pour poser des bases solides ensemble."></meta>
@@ -20,7 +19,6 @@ chien, ses besoins, son histoire — pour poser des bases solides ensemble."></m
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/bilan" />
-      </head>
       <div className={"banner"}>
         <div>
           <Container data-scroll-index='1' style={{textAlign:'center'}}>

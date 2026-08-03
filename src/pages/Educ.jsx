@@ -10,7 +10,6 @@ import icon from '../assets/niche.webp';
 const Educ = () => {
   return (
     <>
-      <head>
         <title>Éducation positive pour les chiens en ville</title>
         <meta name="description" content="L'éducation positive expliquée : méthodes non coercitives, motivation, lien
 renforcé. Pourquoi elle est particulièrement adaptée aux chiens citadins
@@ -23,7 +22,6 @@ parisiens."></meta>
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/education" />
-      </head>
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>

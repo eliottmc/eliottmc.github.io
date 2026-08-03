@@ -10,7 +10,6 @@ import david_gaston_reading from '../assets/pictures_gaston_david/chien_maitre_v
 const Approche = () => {
   return (
     <>
-      <head>
         <title>Mon approche de l'éducation canine — David Macé, Paris</title>
         <meta name="description" content="Une éducation canine individualisée, non coercitive, adaptée à votre chien
 et à la vie urbaine parisienne. Découvrez ma méthode et mon parcours de
@@ -23,7 +22,6 @@ formation."></meta>
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/approche" />
-      </head>
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>

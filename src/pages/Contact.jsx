@@ -8,7 +8,6 @@ import '../styles/Contact.css';
 const Contact = () => {
   return (
     <>
-    <head>
         <title>Contact — David Macé, éducateur canin à Paris</title>
         <meta name="description" content="Contactez David Macé pour un premier échange téléphonique gratuit. Email,
 téléphone, formulaire en ligne. Réponse rapide. Paris et proche banlieue."></meta>
@@ -20,7 +19,6 @@ téléphone, formulaire en ligne. Réponse rapide. Paris et proche banlieue."></
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/contact" />
-      </head>
       <div className={"banner"}>
         <div>
           <Container data-scroll-index='1' style={{textAlign:'center'}}>

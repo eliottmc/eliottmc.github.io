@@ -10,7 +10,6 @@ import icon from '../assets/niche.webp';
 const HomePage = () => {
   return (
     <>
-      <head>
         <title>Éducateur et comportementaliste canin à Paris — David Macé</title>
         <meta name="description" content="Éducateur canin et comportementaliste à Paris. Éducation positive pour chiens citadins, à domicile ou en extérieur. Premier appel téléphonique gratuit."></meta>
         <link rel="icon" href={icon} />
@@ -40,7 +39,6 @@ const HomePage = () => {
   }
 }
         `}</script>
-      </head>
       <div className={"banner-homepage"}>
           <Container data-scroll-index='1' style={{justifyContent: 'center', display: 'flex'}}>
             <div className="banner_homepage_content">

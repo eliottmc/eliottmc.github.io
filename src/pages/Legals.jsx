@@ -6,10 +6,8 @@ import icon from '../assets/niche.webp';
 const Legals = () => {
   return (
     <>
-      <head>
         <title>David Macé - Éducateur comportementaliste canin</title>
         <link rel="icon" href={icon}/>
-      </head>
       <div className={"banner"}>
           <div>
             <Container data-scroll-index='1' style={{textAlign:'center'}}>

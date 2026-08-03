@@ -9,7 +9,6 @@ import icon from '../assets/niche.webp';
 const Tarifs = () => {
   return (
     <>
-    <head>
         <title>Tarifs éducateur canin à Paris — David Macé</title>
         <meta name="description" content="Séance individuelle 60 €. Bilan comportemental complet 150 €. Frais de
 déplacement inclus à Paris et proche banlieue. Remise refuge/association."></meta>
@@ -21,7 +20,6 @@ déplacement inclus à Paris et proche banlieue. Remise refuge/association."></m
         <meta property="og:locale" content="fr_FR" />
         <meta property="og:site_name" content="David Macé — Éducateur canin" />
         <link rel="canonical" href="https://davidmace.fr/tarifs" />
-      </head>
       <div className={"banner"}>
         <div>
           <Container data-scroll-index='1' style={{textAlign:'center'}}>
