@@ -11,9 +11,8 @@ const HomePage = () => {
   return (
     <>
       <head>
-        <title>David Macé - Éducateur comportementaliste canin</title>
-        <meta name="description" content="Éducateur canin comportementaliste à Paris. Éducation positive et 
-        non coercitive pour chiens citadins et humains sereins, à domicile et en extérieur."></meta>
+        <title>Éducateur et comportementaliste canin à Paris — David Macé</title>
+        <meta name="description" content="Éducateur canin et comportementaliste à Paris. Éducation positive pour chiens citadins, à domicile ou en extérieur. Premier appel téléphonique gratuit."></meta>
         <link rel="icon" href={icon} />
         <meta property="og:title" content="Éducateur et comportementaliste canin à Paris — David Macé" />
         <meta property="og:description" content="Éducateur canin et comportementaliste à Paris. Éducation positive pour chiens citadins, à domicile ou en extérieur. Premier appel téléphonique gratuit." />
